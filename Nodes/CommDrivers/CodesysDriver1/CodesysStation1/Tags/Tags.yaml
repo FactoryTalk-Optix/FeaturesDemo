@@ -1,14 +1,34 @@
 Name: Tags
 Id: g=b9cc6667abafae73086eef9c34b1e73c
-Type: BaseObjectType
+Type: FolderType
 Children:
 - Name: Application
   Id: g=15ae2547f2259de413e4370845b5b2b2
   Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
   Children:
   - Name: PLC_PRG
     Id: g=551f8133d14476c9911777ea7fc5d9c1
     Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "Id": 22
+       }
+      }
+     }
     Children:
     - Name: Bool1
       Id: g=7b40a199f349cc46d0faacb8a7e4d800

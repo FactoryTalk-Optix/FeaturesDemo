@@ -168,6 +168,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#e4e4e4"
+    - Name: IconUsesTextColor
+      Id: g=91acd61d442d003d7f49794c5928485d
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: FontFamily
     Id: g=eb0aa80f337da933ff6544138cb0adba
     Type: BaseDataVariableType
@@ -286,6 +291,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       Value: 0.0
+    - Name: IconUsesTextColor
+      Id: g=5ef26c52d481352a01ffdbba9121c0e7
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Id: g=f58819c32bfe6eb811a74236fbd06955
     Type: ChartStyle
@@ -436,6 +446,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       Value: 0.0
+    - Name: IconUsesTextColor
+      Id: g=0bfb3f7dbd633fca08565ed613285ce1
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Id: g=e82be45bcab215a5e4cd1d6c641e06d1
     Type: ChartStyle
@@ -587,6 +602,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       Value: 0.0
+    - Name: IconUsesTextColor
+      Id: g=14de3a559a3ae75effb2a3039c949ff3
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: ChartStyle
     Id: g=a6a3164e132dde0f06b60f8c3dd7edef
     Type: ChartStyle
@@ -988,6 +1008,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#f6f6f6"
+    - Name: IconUsesTextColor
+      Id: g=fb994637f16d579f76a1e8ae14921ef4
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: AccordionStyle
     Id: g=a0db2edb0228f822999bae27427e69dd
     Type: AccordionStyle

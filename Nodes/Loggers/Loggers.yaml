@@ -170,7 +170,16 @@ Children:
       Id: g=9f6f9834c76571b82b61f5bbce5980e4
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 8912
+        },
+        "Body": {
+         "offset": 0,
+         "daylightSavingInOffset": false
+        }
+       }
   - Name: EventFieldsToLog
     Id: g=a6adb753337441df24fbe8f3d84f8a54
     Type: BaseObjectType
@@ -543,7 +552,16 @@ Children:
       Id: g=e474eb567ffdc732c90b5219a5a876e4
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: {"TypeId":{"Id":8912},"Body":{"offset":0,"daylightSavingInOffset":false}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 8912
+        },
+        "Body": {
+         "offset": 0,
+         "daylightSavingInOffset": false
+        }
+       }
     - Name: SourceName
       Id: g=4fab7fb89b2c0e85887923d2ce2c6f96
       Type: BaseDataVariableType

@@ -32,7 +32,16 @@ Children:
     Id: g=967be554dca8f101ce0acfd26d57df97
     Type: RangeType
     DataType: EURange
-    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
     Children:
     - Name: Low
       Id: g=af494ccd0b705d864d6509b31621c279
@@ -50,7 +59,26 @@ Children:
     Id: g=5c6b7083ebd94a0cd75f62c7989edfc5
     Type: EUInformationType
     DataType: EUInformation
-    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Value: 
+     {
+      "TypeId": {
+       "Id": 887
+      },
+      "Body": {
+       "namespaceUri": "",
+       "unitId": 0,
+       "displayName": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "description": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       }
+      }
+     }
     Children:
     - Name: UnitId
       Id: g=f6fb2b8b6fbf3f6c01865c49216ae2f8

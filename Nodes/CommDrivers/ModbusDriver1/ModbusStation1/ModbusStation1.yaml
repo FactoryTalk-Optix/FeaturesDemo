@@ -69,4 +69,7 @@ Children:
 - File: Tags/Tags.yaml
 - Name: Types
   Id: g=89cdd23cc471f2a778ee89a94a8ed788
-  Type: BaseObjectType
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml

@@ -6,7 +6,7 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.1
+ ProductVersion: 1.2
  CoreVersion: 2.0
  Dependencies:
   2:
@@ -32,19 +32,19 @@ Project:
   7:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 1.3
+   Version: 2.0
   8:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
-   Version: 1.2
+   Version: 2.0
   9:
    Uri: 'urn:FTOptix:Report'
    Module: FTOptix.Report
-   Version: 1.1
+   Version: 1.2
   10:
    Uri: 'urn:FTOptix:Report:Net'
    Module: FTOptix.Report.Net
-   Version: 1.0
+   Version: 1.1
   11:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
@@ -88,7 +88,7 @@ Project:
   21:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
-   Version: 1.1
+   Version: 2.0
   22:
    Uri: 'urn:FTOptix:NativeUI:Net'
    Module: FTOptix.NativeUI.Net
@@ -112,11 +112,11 @@ Project:
   27:
    Uri: 'urn:FTOptix:CommunicationDriver'
    Module: FTOptix.CommunicationDriver
-   Version: 1.0
+   Version: 2.0
   28:
    Uri: 'urn:FTOptix:CommunicationDriver:Net'
    Module: FTOptix.CommunicationDriver.Net
-   Version: 1.0
+   Version: 2.0
   29:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic

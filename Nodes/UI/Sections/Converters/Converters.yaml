@@ -116,6 +116,17 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
+  - Name: CurrentTabIndex
+    Id: g=0d16d7e19e7f0e422be3f1f9efdb17be
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: ExpressionEvaluatorPage
   Id: g=21ce4837ba96b06edae7363c5d893142
   Supertype: QPage
@@ -4553,7 +4564,16 @@ Children:
             Id: g=36e5b82ea53d7ce680ec8520b6432793
             Type: RangeType
             DataType: EURange
-            Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+            Value: 
+             {
+              "TypeId": {
+               "Id": 884
+              },
+              "Body": {
+               "low": 0.0,
+               "high": 0.0
+              }
+             }
             Children:
             - Name: Low
               Id: g=82549b5e4469410d949ada84830a9e96

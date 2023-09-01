@@ -77,6 +77,12 @@ Children:
   - Name: NavigationPanelStyle
     Id: g=afcce1f57faf8cb22accb9f0794c2370
     Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Id: g=fe090d551ff7e8c52fbfd575651afc7c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: AccordionStyle
     Id: g=c507e5f7444b7108abefb97a5abeb899
     Type: AccordionStyle
@@ -166,6 +172,12 @@ Children:
   - Name: NavigationPanelStyle
     Id: g=ffa20b2927f046c70a80396bb923c026
     Type: NavigationPanelStyle
+    Children:
+    - Name: IconUsesTextColor
+      Id: g=67e869a19c90d24d7c4291ace64ae364
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
   - Name: AccordionStyle
     Id: g=c103359b5f67574238433992fbca446e
     Type: AccordionStyle
@@ -195,7 +207,26 @@ Children:
       Id: g=2fb8fbda8162793082de0440bc51384d
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Id: g=0ffb274b2f56e563d7529eb77a1729e9
@@ -226,7 +257,26 @@ Children:
       Id: g=2cb235db2966eede17d37b42f3c03fd6
       Type: EUInformationType
       DataType: EUInformation
-      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Value: 
+       {
+        "TypeId": {
+         "Id": 887
+        },
+        "Body": {
+         "namespaceUri": "",
+         "unitId": 0,
+         "displayName": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         },
+         "description": {
+          "NamespaceIndex": -1,
+          "LocaleId": "",
+          "Text": ""
+         }
+        }
+       }
       Children:
       - Name: UnitId
         Id: g=41d61e2065700586ac25ce2e831cb29a
@@ -290,7 +340,26 @@ Children:
         Id: g=444ed6b83b2b785ede3a62a3e3becccc
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Id: g=6b940108fcce41231fa56f556a5ee7df
@@ -330,7 +399,26 @@ Children:
           Id: g=5d6f38e57b20d6cf3d667ccfa8f56b29
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=b6f4d89c9fcd3d4849ba9dc299bf0486
@@ -361,7 +449,26 @@ Children:
           Id: g=d603cbb11bade2b0fb72205d92d18be0
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=9808bc44c86d302441ff34efe4bf18a1
@@ -433,7 +540,26 @@ Children:
           Id: g=3e94d7cb6766bc0a6f240e827a398918
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=dbb816bae608bc997f242019eccc51a6
@@ -464,7 +590,26 @@ Children:
           Id: g=f162b79f5c23ff2e78c52931fa471b90
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=782b286927756657b7dacc84e93c356c
@@ -510,7 +655,26 @@ Children:
           Id: g=e32909e5f06dc0eb9074b914ba3a8229
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=83f41e637aadfb77c0e2ceecb1c9984e
@@ -541,7 +705,26 @@ Children:
           Id: g=8a2161035b19d90a83413b09dce9e9f4
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=6a601fce200099429be0266261d6108f
@@ -591,7 +774,26 @@ Children:
           Id: g=97e4f22ef72bc5ed1372a69d46930c78
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=64a66ae37e2dbc76b22ba6efc558bc47
@@ -631,7 +833,26 @@ Children:
             Id: g=e061b39b767885c789eea0c00b12f979
             Type: EUInformationType
             DataType: EUInformation
-            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Value: 
+             {
+              "TypeId": {
+               "Id": 887
+              },
+              "Body": {
+               "namespaceUri": "",
+               "unitId": 0,
+               "displayName": {
+                "NamespaceIndex": -1,
+                "LocaleId": "",
+                "Text": ""
+               },
+               "description": {
+                "NamespaceIndex": -1,
+                "LocaleId": "",
+                "Text": ""
+               }
+              }
+             }
             Children:
             - Name: UnitId
               Id: g=232aabe25908e7fa4e1e076560c1806d
@@ -662,7 +883,26 @@ Children:
             Id: g=c80ef1d757fc463cb7012d49e7dec45d
             Type: EUInformationType
             DataType: EUInformation
-            Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+            Value: 
+             {
+              "TypeId": {
+               "Id": 887
+              },
+              "Body": {
+               "namespaceUri": "",
+               "unitId": 0,
+               "displayName": {
+                "NamespaceIndex": -1,
+                "LocaleId": "",
+                "Text": ""
+               },
+               "description": {
+                "NamespaceIndex": -1,
+                "LocaleId": "",
+                "Text": ""
+               }
+              }
+             }
             Children:
             - Name: UnitId
               Id: g=348d307ae76af14cba239ad7e5913ed1
@@ -708,7 +948,26 @@ Children:
           Id: g=810b90444798f51341e29c2ae0136ad5
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=cb3f7448e3cc25f73f6b07e3bd26ddfa
@@ -754,7 +1013,26 @@ Children:
               Id: g=9c08b245998074471fa6acab12991461
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Id: g=4f1189284cf5c1c80b3c61098232d540
@@ -851,7 +1129,26 @@ Children:
               Id: g=fcef587a8a58be7e68ef8c5ad21a0f45
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Id: g=11a06d7576719d6df4cb12fbecb325ab
@@ -921,7 +1218,26 @@ Children:
               Id: g=72fc0367192fed6e666f8bc5bebac433
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Id: g=3e2306f1f5e721ae7a378e99ca62fe32
@@ -991,7 +1307,26 @@ Children:
               Id: g=a6e58192935d2a1a16f8ec0c73a28edc
               Type: EUInformationType
               DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+              Value: 
+               {
+                "TypeId": {
+                 "Id": 887
+                },
+                "Body": {
+                 "namespaceUri": "",
+                 "unitId": 0,
+                 "displayName": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 },
+                 "description": {
+                  "NamespaceIndex": -1,
+                  "LocaleId": "",
+                  "Text": ""
+                 }
+                }
+               }
               Children:
               - Name: UnitId
                 Id: g=12b8594ad894c0ec1ca29d9fa345fec1
@@ -1090,7 +1425,26 @@ Children:
           Id: g=ec27a5bececc06ecbd78de251ec03cd1
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=b755db8bbaed6565743d498f45dc87cc
@@ -1132,7 +1486,26 @@ Children:
           Id: g=5438b41691d5fd128683efc73e733b65
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=724bbe6a45401dbaf0f0b0852c766f03
@@ -1186,7 +1559,26 @@ Children:
         Id: g=c7e5674a34b78e771a118ce05857b737
         Type: EUInformationType
         DataType: EUInformation
-        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Value: 
+         {
+          "TypeId": {
+           "Id": 887
+          },
+          "Body": {
+           "namespaceUri": "",
+           "unitId": 0,
+           "displayName": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           },
+           "description": {
+            "NamespaceIndex": -1,
+            "LocaleId": "",
+            "Text": ""
+           }
+          }
+         }
         Children:
         - Name: UnitId
           Id: g=a35f11f9f73ea490c6c76316c5a77d6c
@@ -1226,7 +1618,26 @@ Children:
           Id: g=dea1df4b95ede20303e8846460a59083
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=b5b66324c872b84e48a7c393d2e30e89
@@ -1257,7 +1668,26 @@ Children:
           Id: g=4ad4ec6798394705f1676072acdbb43b
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=cd680bad8f34c10d11cf7a8478480bce
@@ -1360,7 +1790,26 @@ Children:
           Id: g=a3a4e24a09913c540e06ff59f334a72f
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=0cde280106e8d19f58e149785e71ff59
@@ -1391,7 +1840,26 @@ Children:
           Id: g=08e81b8e35a6149dfa057d02ff45c604
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=f10e3f9c0b6e34f7b7795e38ebce4687
@@ -1422,7 +1890,26 @@ Children:
           Id: g=0af1b3bde46741d282ae8fa440abd2f8
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=3278af7bab207eeefdb8c7dcf0bb6f20
@@ -1453,7 +1940,26 @@ Children:
           Id: g=9c07eb1b06b29b6cbdff8b2d363b7688
           Type: EUInformationType
           DataType: EUInformation
-          Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+          Value: 
+           {
+            "TypeId": {
+             "Id": 887
+            },
+            "Body": {
+             "namespaceUri": "",
+             "unitId": 0,
+             "displayName": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             },
+             "description": {
+              "NamespaceIndex": -1,
+              "LocaleId": "",
+              "Text": ""
+             }
+            }
+           }
           Children:
           - Name: UnitId
             Id: g=996d3e81c263891fab34e16fd80e740e

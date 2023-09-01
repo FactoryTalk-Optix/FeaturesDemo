@@ -12,7 +12,16 @@ Children:
     Id: g=d0b544d1183c726067fdc5f5a9b2bde1
     Type: RangeType
     DataType: EURange
-    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
     Children:
     - Name: Low
       Id: g=55d075a49ee11f5f67d3463ad2ed6998
@@ -30,7 +39,26 @@ Children:
     Id: g=8735b80ccb8b81441b873a029b4d16c9
     Type: EUInformationType
     DataType: EUInformation
-    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Value: 
+     {
+      "TypeId": {
+       "Id": 887
+      },
+      "Body": {
+       "namespaceUri": "",
+       "unitId": 0,
+       "displayName": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "description": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       }
+      }
+     }
     Children:
     - Name: UnitId
       Id: g=846ba7d15807847e9d0bf38e332123b3
@@ -60,7 +88,16 @@ Children:
     Id: g=2032cfbd88d5ab888357de7c23f7a5f1
     Type: RangeType
     DataType: EURange
-    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
     Children:
     - Name: Low
       Id: g=d338a58a788050e03eb89df4375a7821
@@ -78,7 +115,26 @@ Children:
     Id: g=66dee39b8ed15dd45533f3a0716edf3b
     Type: EUInformationType
     DataType: EUInformation
-    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Value: 
+     {
+      "TypeId": {
+       "Id": 887
+      },
+      "Body": {
+       "namespaceUri": "",
+       "unitId": 0,
+       "displayName": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "description": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       }
+      }
+     }
     Children:
     - Name: UnitId
       Id: g=8f14cbdd6af0f5182ebe77fa54e47401

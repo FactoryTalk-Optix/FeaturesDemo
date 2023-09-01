@@ -76,6 +76,17 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
+  - Name: CurrentTabIndex
+    Id: g=ad73490ae6e25b5a820645df5f955bce
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Reference
+    Target: ns=7;i=1181
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=1183
+    Direction: Forward
 - Name: RuntimeUIPage
   Id: g=d819f133068e92e3a201bad0bb30eb72
   Supertype: QPage
