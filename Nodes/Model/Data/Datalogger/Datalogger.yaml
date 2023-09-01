@@ -1,0 +1,10 @@
+Name: Datalogger
+Id: g=31227d68ba12e0740e93ec60bb5c0d57
+Type: FolderType
+Children:
+- File: Variables/Variables.yaml
+- Name: FolderPath
+  Id: g=a1ad034fea8cf9e33c09a0e5650eec8d
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "%PROJECTDIR%\\CSV"

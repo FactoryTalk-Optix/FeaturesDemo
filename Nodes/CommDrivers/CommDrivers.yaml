@@ -1,0 +1,6 @@
+Name: CommDrivers
+Id: g=e2850acc5c9c305624c7a4208ff67531
+Type: CommDriversCategoryFolder
+Children:
+- File: CodesysDriver1/CodesysDriver1.yaml
+- File: ModbusDriver1/ModbusDriver1.yaml

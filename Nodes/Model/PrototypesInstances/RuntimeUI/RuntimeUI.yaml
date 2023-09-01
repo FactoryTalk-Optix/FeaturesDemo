@@ -1,0 +1,28 @@
+Name: RuntimeUI
+Id: g=b1675a919645e6b168b4151a73ddcef9
+Type: FolderType
+Children:
+- Name: NumberOfInstances
+  Id: g=e915bf1b6fdf5147315eee13082b42a6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EURange
+    Id: g=5875b046ae1fb9378ca4bf270c121b6d
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=8923055f68872fa54c6afc8ccd294451
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=5e38164b5ae29252ee345586fcd7e993
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 5.0

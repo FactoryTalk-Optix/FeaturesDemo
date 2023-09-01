@@ -1,0 +1,29 @@
+Name: PieVariables
+Id: g=5bef6e2b0822ad7e9e40011bb788255f
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=0690781f7760335baad6550451792700
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: Variable2
+  Id: g=6b2e3bac61dacf3482e44d7dc4e74d13
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 20
+- Name: Variable3
+  Id: g=b4958d995ba5e6dd6178b428e18c1f41
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 30
+- Name: Variable4
+  Id: g=efb3264bafcaeda0d20a23a118a4ec82
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 40
+- Name: Variable5
+  Id: g=cbf89a80193338fb31e3a8de73dcc858
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50

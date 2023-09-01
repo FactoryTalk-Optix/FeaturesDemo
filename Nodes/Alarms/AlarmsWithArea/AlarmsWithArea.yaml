@@ -1,0 +1,377 @@
+Name: AlarmsWithArea
+Id: g=c413451677c538bcfa0007747cb79de8
+Type: FolderType
+Children:
+- Name: DigitalAlarmWithAreaType
+  Id: g=a4722f182b9a1ffed5794db2779563d8
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=549b729d1baaa9367616aa82b8d8cdf6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=21a040f33147cc750dbc5f5f5a22280c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=d669096a759ca632775d816fbd5b3b27
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=329920d88deaf082161a5ccc2ee02f87
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=60f6d871892beb3fe452474ddbf95c11
+- Name: DigitalAlarmWithArea1
+  Id: g=3ef21feccc242ffdb24a7f2a5f69fde7
+  Type: DigitalAlarmWithAreaType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=5d9ae714d6ec2232b4f8b72914e8dc77
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=95190908ee189a24572cc5705ff7d828
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=96fd957677f7153b05dcbc6efa90bf24
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Area/Alarm1"
+      Children:
+      - Name: Mode
+        Id: g=f791de2a1dac63482abdc4f7f6ee665f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=27dd3b45a3eaed25bf985982dc6ca09f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=b280d344099108b6b21922dafd80969d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone1"
+  - Name: Message
+    Id: g=dc3b9672590f00f1e91d0e26088ee308
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"Alarm 1"}
+  - Name: Severity
+    Id: g=91515277f9e0d09fb79a970ee8db6989
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: DigitalAlarmWithArea2
+  Id: g=99de6b9fd7d26b337249aec0eecdfa5c
+  Type: DigitalAlarmWithAreaType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=fb4ee777a6f7d77600e739e37cca5e12
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=3ba05b3d4a83596b85bfa7c68dbfae16
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=123b7a4a16c20bb5495c9b9a7d0c7b98
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Area/Alarm2"
+      Children:
+      - Name: Mode
+        Id: g=318370d8a33457c6b87346933821d555
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d047199453d50dfdd756027aa4260c43
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=04bbae8ca6bb289d600ea5c9b1906718
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone1"
+  - Name: Message
+    Id: g=9707e7e77d879e69b5cc8295557b265a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"Alarm 2"}
+  - Name: Severity
+    Id: g=89e822b886c75748c03c5fc472e5ebc2
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: DigitalAlarmWithArea3
+  Id: g=3dc66f501849a36dd8763c4f65facb17
+  Type: DigitalAlarmWithAreaType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=b65f42d85e5ebd4d3afe1d64bfbffd04
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=88f76fa2e4dd2fa00bb48356694c852a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=4fc23abf2e64136f15c4d850f48c32b6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Area/Alarm3"
+      Children:
+      - Name: Mode
+        Id: g=2fb3f4c163728de027f01e02a1fedda6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=54e8f243d9fd6d548b524da83bb9a20e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=7d4171183d61db140673aa4d273f5663
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone2"
+  - Name: Message
+    Id: g=e6c479cd3702e12596744c07b4c0b2e0
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"Alarm 3"}
+  - Name: Severity
+    Id: g=c35b9df50c6827473dc16207b4179730
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: DigitalAlarmWithArea4
+  Id: g=d041796d991f5e17704822d5641fda26
+  Type: DigitalAlarmWithAreaType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=00c6ee394170d6f9afe03702f165b32e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=c8030ffd18ffdee8fb1e228e4959b4da
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=963f95046a17d733c5f5ab5f2d6ae11e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Area/Alarm4"
+      Children:
+      - Name: Mode
+        Id: g=c94a3369327714f7f975bb234b787086
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=84981c9f6b859f8707eb611b3e5d8156
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=24fd90762777c35bd311898511cd0e65
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone2"
+  - Name: Message
+    Id: g=aeaf92edf8a32677666a4bc28c7d441c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"Alarm 4"}
+  - Name: Severity
+    Id: g=f74cf81254162cac0bec3b6c4147c49c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: DigitalAlarmWithArea5
+  Id: g=d5e178f83464fa2b53916457b0c46c75
+  Type: DigitalAlarmWithAreaType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=11aa82f4c00eb18e6258006dd878f9ac
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=87648a185b46ae233f20717318e7ad64
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=33b265b86f5ef11fedffbb5312004643
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Area/Alarm5"
+      Children:
+      - Name: Mode
+        Id: g=db4fe158cfaf725aa067853a6c25300a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e838c5f5f9951b680c73248a4d532d0c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=3b2210e55d4d7b917ef23b10baba46b1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone3"
+  - Name: Message
+    Id: g=638d337adcbc37c0cbf8c0c1ccfdc3b2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"Alarm 5"}
+  - Name: Severity
+    Id: g=6fefb3573a221c02f0f5e0de27aa7b93
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: DigitalAlarmWithArea6
+  Id: g=c28320fdb54a9fb30e3949f427712f26
+  Type: DigitalAlarmWithAreaType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=87febcf97e87faf8df644217c5789fd2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=681ceea9e49749fbcd7b9bdd719d6efa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a1a46b08d0c4b469f139096f5f5b5edb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Alarms/Area/Alarm6"
+      Children:
+      - Name: Mode
+        Id: g=023f8ed1ed30ffb9c42266cbc7cd1a79
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=35c82488223d6e09c57512cc46e3fa98
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=db9a46cf8e366168d351d70f33e2163c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone3"
+  - Name: Message
+    Id: g=b3a8a4d7329355c713b0ca7aa0bc1539
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"Alarm 6"}
+  - Name: Severity
+    Id: g=5fb27745e37370e955943ff1dd222ca5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4

@@ -1,0 +1,14 @@
+Name: RelativePosition
+Id: g=554155e624a74a830aa1c0ffc07334eb
+Type: FolderType
+Children:
+- Name: LeftMarginHorizontal
+  Id: g=0ff88ce3ab3907cd705d2ac905831218
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: TopMarginVertical
+  Id: g=3d1b74111b8c7723b8e638e23775258a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

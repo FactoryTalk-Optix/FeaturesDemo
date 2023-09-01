@@ -1,0 +1,57 @@
+Name: XYChart
+Id: g=a7e95dc090301b8fdd6481c85f94ecb1
+Type: FolderType
+Children:
+- Name: SinglePoint
+  Id: g=8acf86851f376bb93809a1d8b6a1d8d7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EURange
+    Id: g=eb904082ac90dd1ed746a62f636785f9
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=175b9720594bc4cd25a7ebd099f76ce4
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=6cbd0ebf58ce58a1b9a49e7c44516f07
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 9.0
+    - Name: Constrain
+      Id: g=5d40bc174c3690053644225a1834e5ba
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
+- Name: PointArray
+  Id: g=90d37acdcf9578ff6b30bc39c2b91949
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [10,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [10,2],
+    "Body": [
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0,
+     0,0
+    ]
+   }

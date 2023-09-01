@@ -1,0 +1,73 @@
+Name: Alarms
+Id: g=37324b5a3264cea108d30c3177cfabd7
+Type: FolderType
+Children:
+- Name: Temperature
+  Id: g=aedec678686b3f801743e90d68c03c30
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Voltage
+  Id: g=e3fef87f5c1f271c01be9900e037a2d6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Pressure
+  Id: g=b15784f59dd5dbd05c36e3ae155cfa73
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: DigitalMail
+  Id: g=b667031dd981beab7ac49233c3c1e3e2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: AnalogMail
+  Id: g=3573d8d863b9e22944d27614808153e8
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=967be554dca8f101ce0acfd26d57df97
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=af494ccd0b705d864d6509b31621c279
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=5f5f36219ebf634acf910f394278c629
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+  - Name: EngineeringUnits
+    Id: g=5c6b7083ebd94a0cd75f62c7989edfc5
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: g=f6fb2b8b6fbf3f6c01865c49216ae2f8
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: -1
+    - Name: DisplayName
+      Id: g=ea151941f832c21898ab0d80a8d33038
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Id: g=03ff791534a621b8e7431edbb4eadb26
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- File: Area/Area.yaml

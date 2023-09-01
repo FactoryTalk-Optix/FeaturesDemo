@@ -1,0 +1,11 @@
+Name: Model
+Id: g=583e28f10cf85a44a9665c7ea578306f
+Type: ModelCategoryFolder
+Children:
+- File: UserInterface/UserInterface.yaml
+- File: Converters/Converters.yaml
+- File: Locales/Locales.yaml
+- File: Alarms/Alarms.yaml
+- File: Data/Data.yaml
+- File: Process/Process.yaml
+- File: PrototypesInstances/PrototypesInstances.yaml

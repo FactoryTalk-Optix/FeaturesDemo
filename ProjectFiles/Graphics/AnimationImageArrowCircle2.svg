@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1024px" height="1024px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="nonzero" clip-rule="evenodd" viewBox="0 0 10240 10240" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>arrow_circle2 icon</title>
+	<desc>arrow_circle2 icon from the IconExperience.com O-Collection. Copyright by INCORS GmbH (www.incors.com).</desc>
+	<path id="curve1" fill="#000000" d="M5120 8320c-884,0 -1684,-358 -2263,-937 -579,-579 -937,-1379 -937,-2263 0,-884 358,-1684 937,-2263l10 -10c31,63 71,121 123,172l758 758c-339,346 -548,820 -548,1343 0,530 215,1010 562,1358 348,347 828,562 1358,562l-687 -687c-46,-47 -60,-113 -34,-174 25,-61 82,-100 147,-99l839 7c176,1 328,63 453,187l1186 1187c124,124 124,328 0,452l-1186 1186c-125,125 -277,189 -453,188l-839 -7c-66,-1 -122,-38 -147,-99 -26,-61 -12,-127 34,-174l687 -687 0 0z"/>
+	<path id="curve0" fill="#000000" d="M4402 3979l-1186 -1186c-124,-124 -124,-328 0,-452l1186 -1187c125,-124 277,-186 453,-187l839 -7c65,-1 122,38 147,99 26,61 12,127 -34,174l-687 687c884,0 1684,358 2263,937 579,579 937,1379 937,2263 0,884 -358,1684 -937,2263 -5,5 -10,9 -15,14 -30,-59 -69,-114 -118,-163l-765 -764c343,-347 555,-824 555,-1350 0,-530 -215,-1010 -562,-1358 -348,-347 -828,-562 -1358,-562l687 687c46,47 60,113 34,174 -25,61 -81,98 -147,99l-839 7c-176,1 -328,-63 -453,-188z"/>
+</svg>

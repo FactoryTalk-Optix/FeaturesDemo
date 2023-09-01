@@ -1,0 +1,52 @@
+Name: CodesysStation1
+Id: g=8652c0e17c36f297a6b516a5afd8d462
+Type: CODESYSStation
+Children:
+- Name: GatewayIP
+  Id: g=c46d092101e3ee59c80fecfbab9d9c82
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
+- Name: Port
+  Id: g=ef6bc14181f80b7c71eecd2d95e3124d
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 1217
+- Name: PLCAddress
+  Id: g=bb752bbee73cf39764b93aedbbfb04c1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ASPC553"
+- Name: Timeout
+  Id: g=a6266562e5332c1cb74c4217415a9088
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:0.0000000"
+- Name: OperationCode
+  Id: g=b422bd2c89b98f6690f6569ca50f9b20
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=27;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=f3fc0193d258a8c628bc45df2364540b
+  Type: BaseObjectType

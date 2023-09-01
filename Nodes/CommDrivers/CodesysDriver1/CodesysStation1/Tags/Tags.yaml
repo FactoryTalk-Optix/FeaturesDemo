@@ -1,0 +1,56 @@
+Name: Tags
+Id: g=b9cc6667abafae73086eef9c34b1e73c
+Type: BaseObjectType
+Children:
+- Name: Application
+  Id: g=15ae2547f2259de413e4370845b5b2b2
+  Type: TagStructure
+  Children:
+  - Name: PLC_PRG
+    Id: g=551f8133d14476c9911777ea7fc5d9c1
+    Type: TagStructure
+    Children:
+    - Name: Bool1
+      Id: g=7b40a199f349cc46d0faacb8a7e4d800
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=480d448ee932e4ec3e338829102f9d22
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Bool1"
+    - Name: Bool2
+      Id: g=bfa9ae61d02791cf6c937f87b25ad0f4
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=304b3ed9c31b40be087d38e5018ebba6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Bool2"
+    - Name: Int1
+      Id: g=ae74681dcf78155598a6332dde3a7d8a
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=142653e7a329cd0370c0c6900021fa6f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Int1"
+    - Name: Int2
+      Id: g=5905503fb155acb93ac83019786daf38
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=5f5768bfc1f82858ff20ae12a79cd9e3
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PLC_PRG.Int2"

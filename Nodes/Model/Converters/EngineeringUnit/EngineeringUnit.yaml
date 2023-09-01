@@ -1,0 +1,135 @@
+Name: EngineeringUnit
+Id: g=1472d88f14da25de4a15c1118f8a2c2a
+Type: FolderType
+Children:
+- Name: AnalogVariable1
+  Id: g=cfd7fe7d3c2275ff7cc909b49d6d46fd
+  Type: AnalogItemType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: EURange
+    Id: g=4323a2d3ea07d61703c095f28e3ad2af
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=ca7ad9f9d588756394e79c01e381d245
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=990063c3be40a7d068c709e6b4a10850
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+  - Name: EngineeringUnits
+    Id: g=a1cb920c99c39ae87e950b2267db00cf
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Id: g=28435ed33ba1719d592cacdb5e288471
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: -1
+    - Name: DisplayName
+      Id: g=f01ccd02473bb0f16f007f21cedac076
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Id: g=59e42780388516671c0da169edd39b0a
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: RawMin
+  Id: g=5b13d70e5d76c5671d36d193db80b942
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=1c4c2153f0a781be0f85937a787c07fa
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray[0,0]"
+    Children:
+    - Name: Mode
+      Id: g=8ca1164ed3e3e5ecd9d65499b80cce56
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: RawMax
+  Id: g=9c9843f2b86f6af4ab1e48d3acae1679
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100
+  Children:
+  - Name: DynamicLink
+    Id: g=7a6230ddf13064ccc5a69ab1c6b58db7
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray[1,0]"
+    Children:
+    - Name: Mode
+      Id: g=bbae2c15059b9927aad2dde0623ed535
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: ScaledMin
+  Id: g=b9e5f40f8b46494f601058a04e0c67fa
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=a0d08e243c4e929836ef95ca6ce50d1d
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray[0,1]"
+    Children:
+    - Name: Mode
+      Id: g=622897945320edb09c03810f60d124bf
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: ConvertedMax
+  Id: g=303ed058882f3de58cc34df08cefca57
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 1000
+  Children:
+  - Name: DynamicLink
+    Id: g=81cf77a31ff563de0a61ff1881ba01cc
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray[1,1]"
+    Children:
+    - Name: Mode
+      Id: g=25506ee4f14ac47d399504845ac2a923
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: XYChartArray
+  Id: g=0a2b5d4a53cacff7c9c8b10ee5d9d5ca
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [2,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [2,2],
+    "Body": [
+     0,0,
+     0,0
+    ]
+   }

@@ -1,0 +1,30 @@
+Name: PrototypesInstances
+Id: g=182408c549c3e6ca9e24cdfd62b092b7
+Type: FolderType
+Children:
+- Name: Fan
+  Id: g=d14a91fa661846cd75392c3a975908d0
+  Supertype: BaseObjectType
+  Children:
+  - Name: Number
+    Id: g=9a81a968e9831370664eac4876aed1a3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Id: g=ccf2134bd6a9d601b1d002f3a99472e5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=59ddaaf561d98b60643cab0a090b7fcc
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+- File: RuntimeUI/RuntimeUI.yaml
+- File: RuntimeAlarms/RuntimeAlarms.yaml
+- Name: DateTimeOffset
+  Id: g=bac3b4aaddbe22a79ef5409d1f2ceeb3
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:02:00:0.0000000"

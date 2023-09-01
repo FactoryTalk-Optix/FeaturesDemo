@@ -1,0 +1,79 @@
+Name: Variables
+Id: g=a8460345da0f75259ae91843f91f9551
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=3e823cfcc403b8bd349ac7037da062b9
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=17c8ca36f8a4514f198e3add74769804
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../NetLogic/VariablesSimulator/iSin"
+    Children:
+    - Name: Mode
+      Id: g=11b0dfbd426d6f835bc1519071dd8a4c
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable2
+  Id: g=fe30e95ad081d6a3a94e34347a36185d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Id: g=963966f5bc9bf4d69d6d68b7a91ec448
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../NetLogic/VariablesSimulator/iCos"
+    Children:
+    - Name: Mode
+      Id: g=81525ea4888e909f373b34735a67aeee
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable3
+  Id: g=f7474a595e7ab6d956ff3eaaed80223b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EURange
+    Id: g=cb37b6870c63fc4e3755fd34c53414af
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=84bace6778ef2f4ace2f029271ba77cc
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=9d97ce38421e1867da5896a1c261305a
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 100.0
+    - Name: Constrain
+      Id: g=6fe4c3c0f44eddd473ba32a7f7bdc0db
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: true
+  - Name: DynamicLink
+    Id: g=f2e65bedced9167f254d02a400ce2d28
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../../NetLogic/VariablesSimulator/iRamp"
+    Children:
+    - Name: Mode
+      Id: g=a6de6062e2ff4d5a187d6a36e1936cba
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

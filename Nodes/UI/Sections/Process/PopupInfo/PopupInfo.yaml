@@ -1,0 +1,388 @@
+Name: PopupInfo
+Id: g=8fc113fa42e158fab61345b65a4d03ad
+Type: FolderType
+Children:
+- Name: QInfoMasterDetail
+  Id: g=f9799ebda5b241df040a719fe46681af
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=32ed75949f0f15130d31de5411a3bb21
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=2e4291b1986237e876c20dff72c2cfba
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=aa4c46f82cdc318b8e4afc789f69583b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=c71bad5a9e5474dd820285c499e453f1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=199f652ce26811a920f818c37ff93d40
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=1d4c25d153afa7daf1c43a2b85730070
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=b0b9aef2a8108529125e982eee549b32
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=3f0534a2512c999488fa9c98a1f02db8
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=8a7daad3b4d8dab0824a490101c9a472
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=89dcc5806a4013a8a37b8cdd01b71a15
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=4137e761959c6668afb1222eea1e7149
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=07b2e6bc7932b01187912570df758ad5
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=46a54065b9faa49fa153bd1ed882b7cf
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=062e36cfa678f35ada3266d57c0fe0aa
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=e664925b174c4624fbd36452aacf61dd
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=1324dfbd7b1c8b45329c74ff5ed35a60
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=486d2188a7b7d8ab01b5503c3220665b
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"An alias is a particular variable type that points \nto a source node identified by its \nunique identifier (NodeId attribute).\nIt links two areas of the project information model and \nmakes it possible to set up dynamic links to create \nparticular dynamic logics that would otherwise be impossible.\nSelect different engines and try to \nmake different types of changes."}
+- Name: QInfoAlternativePLC
+  Id: g=020402e930b8318e8411ac9c1b48c9e7
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=2493c24d31e75b625ab623e30e231a62
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=91205dc8663e8a5d6b035bd2cb806337
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=4b53f897f3a35f5d4c694c5a47d8239f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=7c9505c07fefe0be63c03dc42b65cc1f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=3e69a0f4fa6c1f299b5fa186df701ff2
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=36f9f69354b0122eb1e3c10cb9904bf1
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=bc78b466821a6aa2671efca8b6e4528b
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=82ce00959379b0824aea597d36221c68
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=f792f2519e09fd576d3b36432e88e773
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=3f94024d931403471cbc743e0a0bac9a
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=2aece192c46d4ec9d74cd451d98399b5
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=7bb06184a1ae8159bdcca6b302c4a4d1
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=98777691663295585b7f050d2610bd7d
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=51bf0b0eb08a1c73fbc83958fe7ac2bc
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=20f562fd4a57e60addeb359987b872cc
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=c569b8f86b5d15fa95242b78242f8ffc
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=8c56c29ab8791984e70f0b28967c23a8
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Try connecting and modifying variables through \ndifferent driver types. \nA Codesys sample project (available for download at \nhttps://www.asem.it/en/download-area/74/codesys.html) \nis included in the demo download folder \"DemoUniqoPlc\".\nTo carry out a complete trial download a Modbus \nsimulator of your choice.\nFurther informations on:\nhttps://www.asem.it/en/assistance.html"}
+- Name: QInfoMachineToMachine
+  Id: g=edb13f56bc51d295d23f6b63a677979c
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=6802af004727997729bbc4ba72624026
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=7e527286e642e602bd311cf976625449
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=f98eb712f8becf8a92e86bfbff59afa3
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=8c7fc899f693abc0383b7bf6ee18deda
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=0682a808c3f12aae63764a4b24aa379d
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=cb327a9c13a548e7cda253afe6b1ac4d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=958dbfb7f0952d125b981a5c509bec77
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=fb83626af85d378c3f5067ff08027f32
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=16d2286f624addd61debb4f2c1b542b3
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=8869562af3ded6b6afceede517f96784
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=1b4057bd9d491398512f6eeb822f4b4e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=def83ca80a0e269487d4697c6d5ea0b7
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=1949b98797e7929b62a61468dc9db719
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=f09a8a60ada3bc1d3f5accb81d7acd02
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=b505c741eaca1135be7c984085e1bd30
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=b1b172a4c5b629e5ec71ef78ca19def6
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=df6bb24629ca0465b6a101566f1aabc7
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"All project resources such as data \nstructures, graphics, users, recipes, data loggers,\netc. are mapped and structured in OPC UA objects \nwith properties, methods and events. \nThis allows for automatic interfaces to MES/ERP \nsystems or solutions that support the OPC UA standard.\nTry the simulation of communication with another \nmachine through the second Uniqo project available \nin the download folder \"DemoUniqoM2M\"."}
+- Name: QInfoAudit
+  Id: g=21750027c1a720ae4b9e4aaa7b2300f4
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=a9728b290cfb92df3ea8c458c58b8de7
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=2f0b9291fa72f8e34f6b5bead7956da5
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=6121d326226b05a36395e7a7d761fc91
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=a7acdfd7dca30b85fb59febbaa4d1070
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=8240e7818137e934e9dd25d5a5ac1758
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=f09da1bcef9ef93b049f322124ba0241
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=265649778021a3b1738b595af776c1c0
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=bf441dd4f1de721c6a9e8a64b262b5cd
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=f239c706ae08c7bdaf9fc333f3a57399
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=57aba27b328844d725d996d7185058b5
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=6b2db3fbc60617b1aeeedbe24b2d96cb
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=ed3092dfb1eba8b906b501068648da72
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=29a15342a24849b13719772b9a924017
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=af53aacd4420311d9f450cd8a978c31f
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=20c12bba8a1dda66a2e020a0e7e59341
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=6d641393f475ab2cd24c83e5cc0890d6
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=51ea6413332d46229732461e39bb9ecb
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"The data collected on the Audit Event Logger are the following:\n\n- Event source, i.e. the project node on which the events are listened to.\n- ID information of the user who generated the event.\n- Event date and time.\n- Change data of the attribute value (before/after the edit)."}

@@ -1,0 +1,55 @@
+Name: Tags
+Id: g=b0c8a771019e1b44e79bb2cef075229f
+Type: BaseObjectType
+Children:
+- Name: Application
+  Id: g=df90b7d18a822a37d58adeec951d6b59
+  Type: TagStructure
+  Children:
+  - Name: PLC_PRG
+    Id: g=16a64a2ccede62407ea3dc606b25f26e
+    Type: TagStructure
+    Children:
+    - Name: Bool1
+      Id: g=3ba962f77c0ef6e93cbcf960315a61f8
+      Type: ModbusTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: MemoryArea
+        Id: g=bdea065bb21fc91fd11486d723f7d5b8
+        Type: BaseDataVariableType
+        DataType: ModbusMemoryArea
+        Value: 1
+    - Name: Bool2
+      Id: g=57dda4192a9137cc80dac4b1778b64ec
+      Type: ModbusTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: MemoryArea
+        Id: g=d71bdb3cf794d944af101455c5c5892a
+        Type: BaseDataVariableType
+        DataType: ModbusMemoryArea
+        Value: 1
+      - Name: NumCoil
+        Id: g=64cd168c52beef8a198e64c262d6308c
+        Type: BaseDataVariableType
+        DataType: UInt16
+        Value: 1
+    - Name: Int1
+      Id: g=d3b4d5049b02ef4545d866996ebcdeea
+      Type: ModbusTag
+      DataType: Int32
+      Value: 0
+    - Name: Int2
+      Id: g=1961f14d43881194ee81774f71f58323
+      Type: ModbusTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: NumRegister
+        Id: g=4a6974de109460db137182d8cd8a1a07
+        Type: BaseDataVariableType
+        DataType: UInt16
+        Value: 2

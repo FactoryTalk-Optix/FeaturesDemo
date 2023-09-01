@@ -1,0 +1,10 @@
+Name: PieChart
+Id: g=a09fe0c6cf3b004c6cbae1a3b07af53c
+Type: FolderType
+Children:
+- File: PieVariables/PieVariables.yaml
+- Name: HoleSizePercent
+  Id: g=56f8257cac104d1abd5ec048e31b421b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

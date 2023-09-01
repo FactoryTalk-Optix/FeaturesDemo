@@ -1,0 +1,19 @@
+Name: RuntimeAlarms
+Id: g=4bdcb654b3cf20c8d63f8563e2a9191e
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=14f53077c4134c1a815a8a9718ac7229
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable2
+  Id: g=126c8eb0b2a02197a37241b499db852a
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable3
+  Id: g=f1ea98f391ec423c3e97cf5a266f08a9
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

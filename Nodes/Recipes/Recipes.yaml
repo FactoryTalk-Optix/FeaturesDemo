@@ -1,0 +1,358 @@
+Name: Recipes
+Id: g=9331712e3d1d15599c94b314a7d8cf45
+Type: RecipesCategoryFolder
+Children:
+- Name: StyleRecipeSchema
+  Id: g=82183d818998d06d0c8548627db417dd
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=f03d93b24b07e7434ed6b664bfb66860
+    Type: BaseObjectType
+    Children:
+    - Name: SwitchStyle
+      Id: g=498e0ebe290eba5fa00afbded8284ed2
+      Type: BaseObjectType
+      Children:
+      - Name: Radius
+        Id: g=0541e7cf44207f757fbef62f1e6b83d2
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: HandleColor
+        Id: g=345e9b9fb8320606bb4245fafe9a6ff2
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BackgroundColor
+        Id: g=dfee8ff643819ae93185b2e8a3ce29ff
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: GaugeStyle
+      Id: g=f58e85c11b9efb6ee72f73992af2f3cc
+      Type: BaseObjectType
+      Children:
+      - Name: Radius
+        Id: g=4fc2bfaaf6fe879d503b68296be31982
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: HandleColor
+        Id: g=cdfb54ecba33ed2633318060ddb327a7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BackgroundColor
+        Id: g=c674715270f10927f2b49ced49ffdb3e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: ScrollBarStyle
+      Id: g=d3f83fce8953f7c67117befe355b8666
+      Type: BaseObjectType
+      Children:
+      - Name: HandleColor
+        Id: g=977c2a08f11e050ad34ac8b8a6a2267a
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BackgroundColor
+        Id: g=19fad87f71e834d1f2ef4172c6fccf20
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: ChartStyle
+      Id: g=47286334312e6b90171202d7cb157cdf
+      Type: BaseObjectType
+      Children:
+      - Name: BackgroundColor
+        Id: g=9dfa7b0797c74b0640d6d24b6138b575
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: GridColor
+        Id: g=c57efb227559ca1b5e90dd3efc38ca19
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: NavigationPanelStyle
+      Id: g=0a492dcf5218ad9605e4a023ea6ba3b3
+      Type: BaseObjectType
+      Children:
+      - Name: Radius
+        Id: g=302f8a4ce308d37a5ca1c917703ab050
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: BackgroundColor
+        Id: g=7782adde0aa7d05a5f252aa68161cdcc
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: FontFamily
+      Id: g=1884951371f452c10391f8362d0c4b6d
+      Type: BaseDataVariableType
+      DataType: Font
+      Value: ""
+  - Class: Reference
+    Target: ns=17;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=60
+    Direction: Forward
+  - Name: Store
+    Id: g=3d6d55fcf4751b643da2c8c1a8c001ce
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=3946e6edd32677987be2bab26eafd616
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":23}
+  - Name: TargetNode
+    Id: g=87b0a9dce43d669d7f34615598313d8b
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=1dfa7ab83c348209c89d22fcbf566fb1
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: TableName
+    Id: g=ca54dfb93e5cb87a6e6ea5549176bc1b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Stylesheet"
+  - Name: EditModel
+    Id: g=1358f8b23bb27e83044e3e940c1d6e94
+    Type: BaseObjectType
+    Children:
+    - Name: SwitchStyle
+      Id: g=65063d3755d1470efd4800bbb4c46de9
+      Type: BaseObjectType
+      Children:
+      - Name: Radius
+        Id: g=a98b95c3a3f26bb76f6bee472fdfc84e
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: HandleColor
+        Id: g=e6c54542e496d00653e53edb19139baf
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BackgroundColor
+        Id: g=848684b73c4f58ebdf9f77bdf712c440
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: GaugeStyle
+      Id: g=97a00b46aab6e4b1b825ad8b8d6cdd01
+      Type: BaseObjectType
+      Children:
+      - Name: Radius
+        Id: g=beff237a433b8031a3cd8353f7cbe2e6
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: HandleColor
+        Id: g=f50a59287d30863eb5195ee5dd136bba
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BackgroundColor
+        Id: g=c0fd3847cfa404fe51ba4982b923dcc6
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: ScrollBarStyle
+      Id: g=a40b0ed1cd2e8a366af311d478a22cc2
+      Type: BaseObjectType
+      Children:
+      - Name: HandleColor
+        Id: g=e0254b6ad0092171a5e969f3e28c2c13
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BackgroundColor
+        Id: g=31ca3f048aa8ac2980d383935dc4af37
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: ChartStyle
+      Id: g=2ba9ffd06ee0785a193f8fce050eadf3
+      Type: BaseObjectType
+      Children:
+      - Name: BackgroundColor
+        Id: g=25190a4e5e2a31ca3ad24a28b08155b1
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: GridColor
+        Id: g=0c4387d51588c1c073cf5bbe6d363f40
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: NavigationPanelStyle
+      Id: g=df4f08b13b69b21874853bc1a19a4e16
+      Type: BaseObjectType
+      Children:
+      - Name: Radius
+        Id: g=5ea5c8b8dde94c36b014a63705ef4a42
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: BackgroundColor
+        Id: g=c4ff14f5761b1ee52a0d2b6179dad0e1
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+    - Name: FontFamily
+      Id: g=b43695fb07d8b565167a3ed25f9f91c3
+      Type: BaseDataVariableType
+      DataType: Font
+      Value: ""
+  - Class: Reference
+    Target: ns=17;i=76
+    Direction: Forward
+- Name: RecipeSchema
+  Id: g=3609f1ca6453998b70b0910817daf532
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=32f4d00b783c685c559d4bfefdb550a6
+    Type: BaseObjectType
+    Children:
+    - Name: Component1
+      Id: g=308266e136cc5a14cd5919f1f9de3337
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Component2
+      Id: g=94ad74689491e6c6a453ddadf0913be8
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Component3
+      Id: g=9f78615ff8adf1ac495a9c4beae951b3
+      Type: BaseDataVariableType
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [3]
+      Value: [0,0,0]
+  - Class: Reference
+    Target: ns=17;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=60
+    Direction: Forward
+  - Name: Store
+    Id: g=6b38c2895f0600e6ce197c52c7b8feba
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=923873257ff9349f74e51ec39bcf654f
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":23}
+  - Name: TableName
+    Id: g=5e4bb6cb640804e601fa59b9990754d1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Recipes"
+  - Name: TargetNode
+    Id: g=b112767af82890967055fca09651cd5d
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"f489b442db119b0bcfffd3d9d001f71f","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=210811cc76007fbacb6542e9b062301c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=444fd04b7e8899c0ad4ea53e4555e08d
+    Type: BaseObjectType
+    Children:
+    - Name: Component1
+      Id: g=09c23c9c1ecdc9519f5e1f39d9a1b8bf
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Component2
+      Id: g=b7f82a635fe68646e6d48ece2babaa54
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Component3
+      Id: g=a0e238441b0c8bfb721b6bd6e7624daa
+      Type: BaseDataVariableType
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [3]
+      Value: [0,0,0]
+  - Class: Reference
+    Target: ns=17;i=76
+    Direction: Forward

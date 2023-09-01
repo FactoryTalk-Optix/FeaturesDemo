@@ -1,0 +1,29 @@
+Name: PDFViewerZoomMode
+Id: g=40fe8b0b890555809e8493f4be5f5890
+Type: FolderType
+Children:
+- Name: Fit width
+  Id: g=e39b457555d162dbcacaa1fb70215908
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":"Fit width"}
+- Name: Fit height
+  Id: g=f8ce28cac2e4ecfce215d6da4077cd76
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":"Fit height"}
+- Name: Fit page
+  Id: g=6cb709676b894a8b210a45bec961268f
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":"Fit page"}
+- Name: Actual size
+  Id: g=a6c5bc472407e0e515fdd983b5dfe8f2
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":"Actual size"}
+- Name: Custom level
+  Id: g=feb4af1c717978519d57b8ba7a6ba8ab
+  Type: BaseDataVariableType
+  DataType: LocalizedText
+  Value: {"LocaleId":"en-US","Text":"Custom level"}

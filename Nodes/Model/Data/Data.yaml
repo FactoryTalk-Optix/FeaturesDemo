@@ -1,0 +1,17 @@
+Name: Data
+Id: g=e4d95b2bddbe652001817430d0aa3758
+Type: FolderType
+Children:
+- File: Datalogger/Datalogger.yaml
+- File: Trend/Trend.yaml
+- File: Recipes/Recipes.yaml
+- File: XYChart/XYChart.yaml
+- File: PieChart/PieChart.yaml
+- File: HistogramChart/HistogramChart.yaml
+- File: Query/Query.yaml
+- File: DataControl/DataControl.yaml
+- Name: DateTimeOffset
+  Id: g=f4c4034faf3141ba0054189b9f2cb33a
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:02:00:0.0000000"

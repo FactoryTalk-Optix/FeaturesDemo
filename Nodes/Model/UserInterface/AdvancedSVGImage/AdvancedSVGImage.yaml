@@ -1,0 +1,73 @@
+Name: AdvancedSVGImage
+Id: g=f07dd027abef2c6479eb7950813d0f46
+Type: FolderType
+Children:
+- Name: DynamicColor
+  Id: g=6bd81abccd0f0b19072b77e5152ad8b9
+  Type: BaseDataVariableType
+  DataType: Color
+  Value: "#00000000"
+- Name: SVGPartList
+  Id: g=5f2aeecfc132383dec7e7aad7d592ace
+  Type: BaseObjectType
+  Children:
+  - Name: ConveyorFrame1
+    Id: g=afb8ab66a5e83f06db9fff21c696524f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Controls1
+    Id: g=eac3e16e3a6d6e966b93ecf1affe7e23
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: ConveyorFrame2
+    Id: g=d1d125d8273f1d0c7d99ca6cfd12302d
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Controls2
+    Id: g=8eb22f325b5ee7b7e9f08ea25bc37871
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Box1
+    Id: g=8ea3cb70ac322f3cde664b59abcce06a
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Box2
+    Id: g=751baa708a5db1369e39043ad40249f3
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Box3
+    Id: g=9a087eb02b69dbd92289a2dbe0bc8494
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: ConveyorChassis
+    Id: g=dd47507eaa4b2853fd8120a6ccc58e13
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: ConveyorRollers
+    Id: g=baa00aec68ae0fae210ae384fc43f2e4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Legs
+    Id: g=6cae02152c9cd97f7c97585f5298fccd
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Base
+    Id: g=82752729860348de002b166adffdd12b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Overall
+    Id: g=3ff7e3b8a176d075943017b8fb7d226b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
