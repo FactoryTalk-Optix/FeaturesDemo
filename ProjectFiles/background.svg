@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="209px" height="209px" viewBox="0 0 209 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>A2_Fan-01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DDDDDD" offset="0%"></stop>
+            <stop stop-color="#BDBDBD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Proposte" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="General_Fans" transform="translate(-275.000000, -788.000000)">
+            <g id="A2_Fan-01" transform="translate(275.000000, 788.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="9.09494702e-13" width="208.617201" height="208.5" rx="12"></rect>
+                <ellipse id="Oval" fill="#757575" cx="104.210719" cy="104.152174" rx="89.2022876" ry="89.1521739"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

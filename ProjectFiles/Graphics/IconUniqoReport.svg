@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1024px" height="1024px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="nonzero" clip-rule="evenodd" viewBox="0 0 10240 10240" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>document_attachment icon</title>
+	<desc>document_attachment icon from the IconExperience.com O-Collection. Copyright by INCORS GmbH (www.incors.com).</desc>
+	<path id="curve2" fill="#808080" d="M1280 640l5230 0c352,0 656,126 905,375l1170 1170c249,249 375,553 375,905l0 6510 -7680 0 0 -3761 640 1278 0 1843 6400 0 0 -5440c0,-176 -144,-320 -320,-320l-1600 0 0 -1600c0,-176 -144,-320 -320,-320l-4160 0 0 1562 -640 321 0 -2523zm5760 960l0 960 960 0 -960 -960z"/>
+	<path id="curve1" fill="#EDC87E" d="M1155 3583l3035 -1520c158,-79 350,-14 429,143l1636 3266c79,158 15,350 -143,429l-3266 1636c-157,79 -350,14 -429,-143l-670 -1337c55,15 112,23 172,23l556 0 371 741 2693 -1349 -1349 -2693 -1480 741 -1110 0c-154,0 -304,22 -445,63zm168 1626l-43 -85 0 -4c0,-163 157,-320 320,-320l234 0 2 5c-235,31 -430,190 -513,404z"/>
+	<path id="curve0" fill="#808080" d="M1919 5760c-176,0 -319,-144 -319,-320 0,-177 143,-320 320,-320l1280 0c176,0 320,-144 320,-320 0,-176 -144,-320 -320,-320l-1600 0c-341,0 -640,301 -640,640l0 1108c-97,-56 -186,-125 -265,-203 -240,-241 -375,-565 -375,-905 0,-705 575,-1280 1280,-1280l1600 0c529,0 960,431 960,960 0,528 -430,959 -958,960l-1283 0z"/>
+</svg>
