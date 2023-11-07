@@ -1,0 +1,120 @@
+Name: MotorAlias
+Id: g=17b7b71a5bf4b326c543110050e88906
+Type: FolderType
+Children:
+- Name: Motor1
+  Id: g=4fd2928f7713a7fe407206571073ed84
+  Type: Motor
+  Children:
+  - Name: PowerOn
+    Id: g=f4fc70d539aa181b6c5ad612b935fbf4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=9e8cb2ac765b967a9e9dddaf6cc4b119
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Id: g=ab64dfaa9d030177cdf969d7b6364c46
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Running
+    Id: g=d6aacd4870e31d970af9b074b1121615
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CurrentSpeed
+    Id: g=834b6b4efa102620b4c0bdff8634c9db
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor2
+  Id: g=79776d4dda1825d837899d9a292f910d
+  Type: Motor
+  Children:
+  - Name: PowerOn
+    Id: g=3f7be2272ef901b03f2da4dddf8d740b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=ec7cf64bb8d9d065ba0ad29ddc4df291
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Id: g=2633d6249db9792d44b13766f4421bb0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Running
+    Id: g=7b32a20075d2f09b0581a019a9749c19
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CurrentSpeed
+    Id: g=8432a1139434d40823e03c84bc9a1d64
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor3
+  Id: g=be152145f3faeb90634bee9b2e790546
+  Type: Motor
+  Children:
+  - Name: PowerOn
+    Id: g=9df5a0ef6299febacfbfa6413459c89e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=06b4010594b1d2312216f4a8dc5d4ee7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Id: g=1430cb5421fe41956068bcab32db6cf5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Running
+    Id: g=9f82169c38f89bdf5faeabb99ca8d462
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CurrentSpeed
+    Id: g=00c87b9f4fb156c920a7985304032a70
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor4
+  Id: g=15acd567a27f0cf9b7ffdd532f2f9675
+  Type: Motor
+  Children:
+  - Name: PowerOn
+    Id: g=9505398145e22f5b38fdc6dbb496ca23
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=ce2192f3336e7b03591a4f717fad182c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Id: g=9d88b6c205e5648f1ac40935347e4b7e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Running
+    Id: g=208e47c14b7cd9133a8a74e6e7a30fd7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CurrentSpeed
+    Id: g=f27b67b8023279902adeb5962297e15f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

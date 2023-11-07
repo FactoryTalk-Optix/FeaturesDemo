@@ -1,0 +1,39 @@
+Name: FontsFamily
+Id: g=eacbdd0c7119d0e95319bd8a4109bf4a
+Type: FolderType
+Children:
+- Name: Lato
+  Id: g=d5fa6abfdd5bcbd3730406244d2c9e34
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Lato Black
+  Id: g=b2bfcb4f02bd64a52acbc6b04278243a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Lato Hairline
+  Id: g=2fd0187c1eca63f38da18db1439d8ce4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Orbitron
+  Id: g=4829470b31e2008f5a710bb9e16a2be8
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Prata
+  Id: g=a8da52e8c9e832ba61541aab3a15c42b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Lato Light
+  Id: g=c825b84c5365313e22bd3caec26bb6c9
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Avro
+  Id: g=156e9ef922670a6047b3584c999a2a8d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

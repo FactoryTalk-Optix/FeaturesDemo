@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1024px" height="1024px" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="nonzero" clip-rule="evenodd" viewBox="0 0 10240 10240" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>thermometer icon</title>
+	<desc>thermometer icon from the IconExperience.com O-Collection. Copyright by INCORS GmbH (www.incors.com).</desc>
+	<path id="curve2" fill="#000000" d="M6400 6249c393,352 640,862 640,1431 0,1060 -860,1920 -1920,1920 -1060,0 -1920,-860 -1920,-1920 0,-569 247,-1079 640,-1431l0 -4329c0,-707 573,-1280 1280,-1280 707,0 1280,573 1280,1280l0 4329zm-640 286l0 -4615c0,-354 -286,-640 -640,-640 -354,0 -640,286 -640,640l0 4615 -213 191c-273,244 -427,588 -427,954 0,707 573,1280 1280,1280 707,0 1280,-573 1280,-1280 0,-366 -154,-710 -427,-954l-213 -191z"/>
+	<path id="curve1" fill="#000000" d="M4800 3200l640 0 0 3575c373,132 640,487 640,905 0,530 -430,960 -960,960 -530,0 -960,-430 -960,-960 0,-418 267,-773 640,-905l0 -3575z"/>
+	<path id="curve0" fill="#000000" d="M6720 5440l1600 0 0 640 -1600 0 0 -640zm0 -3840l1600 0 0 640 -1600 0 0 -640zm0 1280l1600 0 0 640 -1600 0 0 -640zm0 1280l1600 0 0 640 -1600 0 0 -640z"/>
+</svg>

@@ -1,0 +1,7 @@
+Name: Converters
+Id: g=5d5b3235c5b76312e78e56ef9f6767c6
+Type: FolderType
+Children:
+- File: ExpressionEvaluator/ExpressionEvaluator.yaml
+- File: StringFormatter/StringFormatter.yaml
+- File: EngineeringUnit/EngineeringUnit.yaml

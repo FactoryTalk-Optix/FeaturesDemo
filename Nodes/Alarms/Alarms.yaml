@@ -1,0 +1,308 @@
+Name: Alarms
+Id: g=7c879e97172984569c9458faf5b6b22e
+Type: AlarmsCategoryFolder
+Children:
+- Name: VoltageAnomaly
+  Id: g=ee76bb25eafd71fa67dfce8137da420b
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4de5216287a4d582568ee56d7af8c517
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=db713ccdddf7b30503adb4b7d0ae02db
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=8fe3cfb1d4c6dd71f3e4d9aeaebaafd6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/Voltage"
+      Children:
+      - Name: Mode
+        Id: g=afda6b0ea4f29f4920302d3de4e81389
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=5f481549336d12d7439c7e4f2ab1facf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6ee2c3fab98f145cd4249693660d70c5
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"A001V - Undervoltage alarm detected"}
+- Name: LowPressure
+  Id: g=84a91bc78c13c8f4962a7ebeed109f0c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=617e351a5a5e10146676f1531eaa15f2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=30957ac8c2eb866bea8467725831160b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=782f1bd41241f410b7d9a8a6e3f13df4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/Pressure"
+      Children:
+      - Name: Mode
+        Id: g=182fc24f71e9d2d5308a4c34edf7a919
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=72d8c109b561c9a56e113714c2a8a1d0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=6caaaf1b6228928cdf88b718a0f0616f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"A001P - Low pressure alarm detected"}
+  - Name: Severity
+    Id: g=d3609164ea66875efd7053d1c45d46c7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: HighTemperature
+  Id: g=b33ad4130c619193094361e1eb77ceb9
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=97c19a097283ae81799a6755114a9252
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=7ff5562f798aa33f55cd5c5db3102bd2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/Temperature"
+      Children:
+      - Name: Mode
+        Id: g=6fa7ed358e63f78023eb2fad9579b288
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=82775bf5090ab89fea51b8cd351c3ebc
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=923e97f26a003443105a82366f128c6f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":38,"TextId":"A001T - High temperature alarm detected"}
+  - Name: Severity
+    Id: g=ea9639d4f29bbb60f7be3bd6562bfe7d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: HighLimit
+    Id: g=6d139dd28001d9bea43d2a104582daa2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 75.0
+  - Name: AutoConfirm
+    Id: g=e3325ea66ae4974d9aebc052a92007d5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: DigitalAlarmWithEmailNotification
+  Id: g=ba19bfd6b272af772413d93b673e87ae
+  Type: DigitalAlarmWithEmailNotification
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=6d8c1cc0068385426da7162bc9442e98
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=6b29bf051aa2333f8438085695899fbe
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=204e8b8ebe4479f2c9adec0c50fd7d74
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/DigitalMail"
+      Children:
+      - Name: Mode
+        Id: g=72952e278bee1d8e7f51590f0cb89315
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c7b59da9025f6848363d94d364bbc48f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: DigitalAlarmWithEmailNotificationLogic
+    Id: g=59ec9861900c205b8b32af69dfb43bb9
+    Type: NetLogic
+  - Name: EmailUser
+    Id: g=b596b919a7f333dd3811ea401d39ff21
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a155cf67f82de4a3e4c82a830acc383f","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=bfe5c0a0d15813e4a398f6f17e5e7b3f
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EmailSender
+    Id: g=c03cc29f8c292b018e0f8cc0ee488ad0
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"332f12f4f3b7495aca8d48232f5dcc11","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=de61d95a8cfec8883ece7a0b8128a551
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Message
+    Id: g=ead7e0e820ac8e100e8bdeca730a41dc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: ExclusiveLevelAlarmWithEmailNotification
+  Id: g=d086aa25b39275cce50b96699e6700e0
+  Type: ExclusiveLevelAlarmWithEmailNotificationType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: InputValue
+    Id: g=d371b3d1aa3180a72dff74e679979cb7
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=fe6862bef064dfc8eafbb01fecaeaa25
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms/AnalogMail"
+      Children:
+      - Name: Mode
+        Id: g=5514b90017527caa4d033e5e5f74c704
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3311aa23fb24fe0d6ad8fa2d61af62e9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: ExclusiveLevelAlarmWithEmailNotificationLogic
+    Id: g=72237bcd779b45765693a12db0d728b6
+    Type: NetLogic
+  - Name: EmailUser
+    Id: g=9e3649950ed90bc9a5ca1951eab668de
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a155cf67f82de4a3e4c82a830acc383f","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=63f5c4c4e2902f0cf585a4524031c45b
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EmailSender
+    Id: g=92342c71bc1514bb92e34e613e7ac637
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"332f12f4f3b7495aca8d48232f5dcc11","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=8f001e467c8fd87ba593f53ffe0b9da8
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: HighLimit
+    Id: g=603e4e24ae3ae8f2928a91f7c925e858
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 50.0
+  - Name: HighHighLimit
+    Id: g=c7fedaa0e80465c895406c5469fdfa15
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 60.0
+  - Name: Message
+    Id: g=d8e04ea005d16f385188ed2d62b01a7f
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- File: AlarmsWithArea/AlarmsWithArea.yaml
+- File: AlarmsWithEmailNotification/AlarmsWithEmailNotification.yaml
+- File: MachineToMachine/MachineToMachine.yaml
+- File: RuntimeAlarms/RuntimeAlarms.yaml

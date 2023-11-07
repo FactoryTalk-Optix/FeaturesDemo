@@ -1,0 +1,116 @@
+Name: MachineToMachine
+Id: g=4342af68c8349e46bdccc62112afa2ee
+Type: FolderType
+Children:
+- Name: DigitalAlarm1
+  Id: g=736e463a1aae88ae3bf2ba7ca239ab71
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f773e7b17dfb98aff9172816a257e640
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=ea26d14e962ec30dd5d29589efc2cde0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=3668d68ed1afed30223b5cd6ae639271
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Process/MachineToMachine/Variabile3"
+      Children:
+      - Name: Mode
+        Id: g=b947f0daf5a8a23ecb96ec318de7a11c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6935987b9cbc637f74587cf8ae817f0c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=4fa3191310be197df0769eaaf5aecfcc
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Machine to Machine Alarm 1"}
+  - Name: AutoAcknowledge
+    Id: g=a960e609e8ecab0557d8e8474c09a6ba
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=558b054989a14a40c6f2065e4c70c92a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm2
+  Id: g=771fedcbe79e84436e161c1c4b8ec31a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=68faa24810a46e6bada61beb178909bc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=0643859ff29a891896f20078460e9dd2
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1044e8858ca05457368847841cf1b6cb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Process/MachineToMachine/Variabile4"
+      Children:
+      - Name: Mode
+        Id: g=a32bf17ac9462d319d6d043f97991c96
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d0a6977feedddfcacad6952349ee0b5d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=e538507b73271b500d889dfaa049ff91
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Machine to Machine Alarm 2"}
+  - Name: AutoAcknowledge
+    Id: g=35c91fc932744f55c777175119ae4217
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=1864e180828d89700798638f522c89b4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

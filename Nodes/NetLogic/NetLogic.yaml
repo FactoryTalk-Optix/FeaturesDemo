@@ -1,0 +1,207 @@
+Name: NetLogic
+Id: g=0c58c11a5c3ebc6532ea8bf6286ccc12
+Type: NetLogicCategoryFolder
+Children:
+- Name: EmailSenderLogic
+  Id: g=332f12f4f3b7495aca8d48232f5dcc11
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: SendEmail
+    Id: g=5cac5f4845ebe1e51c43d3c5524f3d0f
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=55ad7234cbd5f33d5ccbcfd023d6576f
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: SenderEmailAddress
+    Id: g=5acf2b56c646a984a88d50c055a52d87
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "device_example@libero.it"
+  - Name: SenderEmailPassword
+    Id: g=94e4ea5c0b4593df314e7ffcb691a6a9
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: "PasswordExample"
+  - Name: SMTPHostname
+    Id: g=5dc9d357bc9b51b85e0e93c75e305e06
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "SMTP.libero.it"
+  - Name: SMTPPort
+    Id: g=fad00f7182435b84b8c399c779e57a9c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 25
+  - Name: EnableSSL
+    Id: g=99508a28f1b90d05020825e00f90f2b1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: VariablesEnhancer
+  Id: g=79d5dd1192a582d594e42412ab5c014c
+  Type: NetLogic
+- Name: DataLoggerExporter
+  Id: g=cfad0f9b68545b561f2c376cdea77de8
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: CSVPath
+    Id: g=5f638d5a67a1623773302e2e4f703e0a
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: ""
+  - Name: FieldDelimiter
+    Id: g=06ca15d402f1d84dc58471f643ab8684
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: Table
+    Id: g=2925a24e82f8000335c5fb367fdf6309
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"2fe056fe3c2e7c5e637e0e915aababf7","Namespace":38}
+    Children:
+    - Name: Kind
+      Id: g=17cf2145ac0ba35ad9865623ca80125c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":3,"Namespace":23}
+  - Class: Method
+    Name: Export
+    Id: g=e8ec1ba4d7363d20f3b8d4f693450834
+  - Name: Query
+    Id: g=21db650baf930f5e0630c436e56633cc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: StringFormatter1
+      Id: g=e6417e8a78c1e132c7261632481912f4
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=f08639a327833e690ae28cb504106d02
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"SELECT * FROM {0:sql_identifier} WHERE Timestamp BETWEEN {1:sql_literal} AND {2:sql_literal}"}
+      - Name: ns=5;Source0
+        Id: g=46a674f0d093c71b5a301fe187459c3f
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=03ce421c996f222d8858fae0ab2da3d2
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Table@BrowseName"
+      - Name: ns=5;Source1
+        Id: g=7ed647535f238261ec828e1ad3b57dbf
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=c124c7d9ac74eec0110f74c463560262
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../From"
+      - Name: ns=5;Source2
+        Id: g=6f4ea3e0b1e06dc10d4288c6a627698b
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=a47b93721376ff166efc7847b9ce7cc4
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../To"
+  - Name: From
+    Id: g=2791fc8c7907ee729bec5ae24fd1fc03
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2021-01-01T00:00:00.0000000"
+  - Name: To
+    Id: g=ef588475fb8b0f4bc009d8f2f5ffca20
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2022-01-01T00:00:00.0000000"
+  - Name: WrapFields
+    Id: g=6913efee8ae3f2aee561ad3a49d127ae
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: CreateDeleteAlarm
+  Id: g=6d549ba29a6ea72f6d8d2473c04c5ab6
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: CreateAlarm
+    Id: g=1b14c1400546d9ee5489a5f8f7f7b956
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=a147fe43c4b594b418f6d54adf41c034
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"alarmName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"alarmMessage","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"inputVariable","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: DeleteAlarm
+    Id: g=6204a2f0d49609bdf37a4f0334f25f9d
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=eade87cc393ed6b988b0efdfcae86017
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"alarmName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+- Name: VariablesSimulator
+  Id: g=f9b8ee681872a54a743aab03bd16d571
+  Type: NetLogic
+  Children:
+  - Name: iSin
+    Id: g=36eb0184a7e12352ecf120e400a3935d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: iCos
+    Id: g=abf97627c322b6873b639bd7ea76e7bb
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: iRamp
+    Id: g=6470015beb82aab72a9d0466dd20ad6f
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: bRunSimulation
+    Id: g=e1eed7be24397a06d45caa574c20ed3a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ClockLogic
+  Id: g=51d26e5559d08248897f08627629de3d
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Id: g=b87e5de9da83aa5fb76a4839b9b2d993
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+- Name: ProjectLoadedLogLogic
+  Id: g=9bf828c99d67b936e1fbcfe5059aec21
+  Type: NetLogic

@@ -1,0 +1,14 @@
+Name: PlcStations
+Id: g=8dd85352966d8d75a5d2dee2290662c3
+Type: FolderType
+Children:
+- Name: StationCodesys
+  Id: g=ac975226c3ef421ce71634c4a0e2247b
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "StationCodesys"
+- Name: StationModbus
+  Id: g=18991e0a93f663e99d5c10adf04b1d2c
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "StationModbus"

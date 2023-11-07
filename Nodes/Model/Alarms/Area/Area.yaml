@@ -1,0 +1,35 @@
+Name: Area
+Id: g=743327fd8e04aa0bac9cd564b92fc127
+Type: FolderType
+Children:
+- File: Zone/Zone.yaml
+- Name: Alarm1
+  Id: g=0c0bfb0df7cb1446ad368ee9bd142f32
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alarm2
+  Id: g=881e431691b3b9647f6793ebd79fb3ca
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alarm3
+  Id: g=98331eb01214c0bb32f26a969e6457f9
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alarm4
+  Id: g=b0b6b6007a75de60511c475d1f3eb9ff
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alarm5
+  Id: g=1c5a4399bf4d07615e490121b25d07c4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alarm6
+  Id: g=d6076a381cd4bf2d6cc2e82ccb8da6ce
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

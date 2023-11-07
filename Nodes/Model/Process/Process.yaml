@@ -1,0 +1,62 @@
+Name: Process
+Id: g=f3c25cd6d411c10dbaab5441190f9ae5
+Type: FolderType
+Children:
+- Name: Motor
+  Id: g=ce2182481c7701f35fb10b6545b4a9d8
+  Supertype: BaseObjectType
+  Children:
+  - Name: PowerOn
+    Id: g=74a983111dfda9ba294f2b433d1a6cec
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Id: g=c2002d8ac737e6abbbd788932e2799ac
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Enable
+    Id: g=8cd7790d462b2a6ef09b05534bdc6283
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Running
+    Id: g=1c60dc30f8983478251d2554b5d3c28d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CurrentSpeed
+    Id: g=2b834aac96d228f5411141152f40d1a5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorWithBehavior
+  Id: g=d23408ae1b9fa4ede22dc81e25a73ab8
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Id: g=345fec062c19d2fc8f4d0e6ddec8348d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Id: g=b9fdd4e4099d6011d2de8a6f5ed17182
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: PowerOn
+    Id: g=d39cfaea7f7366ede223e631070fbb8d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Class: Method
+    Name: StartMethod
+    Id: g=6d78350c464ceb9734d09b556b1f06b9
+  - Class: Method
+    Name: StopMethod
+    Id: g=2461b99e7625c1b707ae481a2cf1e55e
+- File: MotorAlias/MotorAlias.yaml
+- File: PlcStations/PlcStations.yaml
+- File: MachineToMachine/MachineToMachine.yaml
+- File: CustomBehavior/CustomBehavior.yaml

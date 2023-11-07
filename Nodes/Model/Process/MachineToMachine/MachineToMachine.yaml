@@ -1,0 +1,24 @@
+Name: MachineToMachine
+Id: g=b5eeb017ee4a4a83fe368ec79bd82689
+Type: FolderType
+Children:
+- Name: Variabile1
+  Id: g=ffe47febe96df205e91a08c7991859ba
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variabile2
+  Id: g=fa63cd872e42453f778941050989dba7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variabile3
+  Id: g=70c1dd95d8a3a1dd7c386c9185c3a221
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variabile4
+  Id: g=d93093df7771bfe02bcb133f36590caf
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

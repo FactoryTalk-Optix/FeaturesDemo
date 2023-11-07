@@ -1,0 +1,9 @@
+Name: UserInterface
+Id: g=01bac26be99688077b87cc45121cbf09
+Type: FolderType
+Children:
+- File: RelativePosition/RelativePosition.yaml
+- File: AdvancedSVGImage/AdvancedSVGImage.yaml
+- File: PDFViewerZoomMode/PDFViewerZoomMode.yaml
+- File: WebBrowserAdresses/WebBrowserAdresses.yaml
+- File: FontStyles/FontStyles.yaml

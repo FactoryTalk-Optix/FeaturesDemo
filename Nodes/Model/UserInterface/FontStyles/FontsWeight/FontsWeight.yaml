@@ -1,0 +1,54 @@
+Name: FontsWeight
+Id: g=b9e509b3200570df0496743223eead09
+Type: FolderType
+Children:
+- Name: Thin
+  Id: g=1897f46f9634db2726a7a187f053ab20
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: UltraLight
+  Id: g=fbee2c40ea5468528f54fda4e9b1f95d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Light
+  Id: g=0ada527261bd97ef49383ad476001a2c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Normal
+  Id: g=2af7d47354dbe8b0f23abab0b911f914
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Medium
+  Id: g=bcb1799c55b7b6a9d06324a29ccbcedc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: SemiBold
+  Id: g=347cbca3c909143665d85a66216b78e1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Bold
+  Id: g=9afd225d69f89d587a8a8de4e88b1b6a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: UltraBold
+  Id: g=3faee5bce374990ab51d9bfc99497936
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Black
+  Id: g=ad69f32db66243d6f6296c1c05e8c855
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: UltraBlack
+  Id: g=62231aa3e12f62622d3018d7acba3b7b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

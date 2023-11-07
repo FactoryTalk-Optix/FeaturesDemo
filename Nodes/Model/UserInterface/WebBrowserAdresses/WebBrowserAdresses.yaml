@@ -1,0 +1,25 @@
+Name: WebBrowserAdresses
+Id: g=c68da71daf4aa84dfa27ee42ad10a108
+Type: FolderType
+Children:
+- Name: Addresses
+  Id: g=0addbf1919c25d07aae9a5609d39a7db
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: Asem
+    Id: g=a8a90d122f9ef89611fb8ddec773b9c7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "https://www.asem.it/"
+  - Name: RockwellAutomation
+    Id: g=1c2f4515fb347b976971609f2cb2ce5c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "https://www.rockwellautomation.com/"
+  - Name: FTOptix
+    Id: g=f6a6293f314e699377efada98fd433d6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "https://www.rockwellautomation.com/en-us/products/software/factorytalk/optix.html"

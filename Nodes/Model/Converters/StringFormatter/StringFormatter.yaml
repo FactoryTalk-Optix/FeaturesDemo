@@ -1,0 +1,24 @@
+Name: StringFormatter
+Id: g=d2c4f653c6c456511edd0c4d19c2b2de
+Type: FolderType
+Children:
+- Name: DateTime
+  Id: g=0c7f42e785f869917aacbe0408c78bad
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: FloatingPoint
+  Id: g=f9946dc9d032ca00472ab3b7624b6ad1
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 76.368896484375
+- Name: Uppercase
+  Id: g=42b51929f842089309859be39f916ad9
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "uniqo"
+- Name: Binary
+  Id: g=df26c3d62771a1292c5c26b97beed373
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 55

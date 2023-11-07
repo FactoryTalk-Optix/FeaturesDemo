@@ -1,0 +1,196 @@
+Name: PopupInfo
+Id: g=9b129d0b32a1b9ffa5cf88f436249e3c
+Type: FolderType
+Children:
+- Name: QInfoRuntimeUI
+  Id: g=e3d89e4bc610d655cb3b6072070d8d48
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=874d05cbbcd814f6a11d7572cce9082f
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=dccac85015e89a4cd3d50ec89b16f415
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=fc3f762f015a962d876bf710e468968c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=fd5f47e33a0f95752f21c7db2ad855a0
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=0800375f19bb963c7c03c2dd0529bc2e
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=6dbbaf1a4b9ed36abcdd4cf3b7e4b980
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=ef9eb10d150f551807e1c78dcbd06908
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=855c4efd0f5dc56692177f4e306b145b
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=0a6656ba287bcd0e86d169e691196bbb
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=f1cc67bc9f0417e15cabd2df56e9adfc
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=db460d789626c7d20aef908a7c0c5208
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=83eb8d26daaacbe2e5d42531052eff54
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=b7c50c8f4edb3ace49c3d10d9a896f33
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=54dad0f114dffa7e5dc3cfd370d6e7c2
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=e493645a70790d8756fac09010a46114
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=27533f308b42102c2416edaecbed40ae
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=6b096c65dd817deb9834ce3378ebfc54
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"In UNIQO it is always possible to define models \n(types, templats) for any object of any complexity, \nwhether they are graphical or not. \nThis is the fundamental of Object Oriented Programming \nsupport in UNIQO.\nThis enables the definition of logical and functional \nmodules working as a model (read also types or templates) \nwhich can be instantiated at design time and \nat runtime according to the requirements of the \nspecific application.\nSelect the number of motor instances to create \nUI at runtime and press the generate button. \nNow it is possible to freely modify parameters values \nof every single instance."}
+- Name: QInfoRuntimeAlarms
+  Id: g=65c26a39c50c749221974bd68893f6d8
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=f4ecc74c086db93a1cfff5a4e26c86a9
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=9fa2d69999d840923a00f52bb22a102e
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=899a9c7651af784fbcc4ad1b5ff19c56
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=6a220b00c850272e14cf95dda2b43f05
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=047b2902dbbf383cc23632e92e5dfb57
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=2975993667f30b16d9753ea4dadf28e5
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=56aac8b9a4b056f68a5803bc1bf91e6d
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=a9fde0f604f52f5a73c267196db7b5eb
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=40e9e834a1b2fb1635eb48f704ce2dcc
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=fbc343d164d25d95747891222d23477a
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=1bbbee67af9bced2031c4947943c04c5
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=d627bdab191ffd106142b5e963a110ab
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=91513d38637b8ad1d256d8f41f362e02
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=96f70c572866b3e0dcb67aab0c1b3017
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=d62f106cdf0c70c68607ded2f6df43e1
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=ecc02feb95cca36a0ed2ca5905be6b55
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=4f2a11a5367f01932b9153386b835a1d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"As for user interface, at runtime it is possible \nto create alarms by dynamically associating them\nto different variables.\nSelect from the target variable from the combo-box, \nassociate it with a name, press enter; \nassociate an alarm message, press enter; \npress the button create alarm and check the displayed\non the alarm grid using the relative switch."}

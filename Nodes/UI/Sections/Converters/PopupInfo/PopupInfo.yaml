@@ -1,0 +1,388 @@
+Name: PopupInfo
+Id: g=6fabf8b48199572966eaef60ca4fe1a4
+Type: FolderType
+Children:
+- Name: QInfoExpressionEvaluator
+  Id: g=e99e136feea60306a81ced7d379af20f
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=954f76a33434822c25b5146ace76c308
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=92cdaec6927f6b7d4c26ab4a0383d24b
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=bcdf94252d485930a98781776894df47
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=bba85f2051e8b1c39950196600076ae1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=11ac5ed88744de78f134c5fb5443cc0a
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=2250ae4d1dac4735b6b586bb1758c85b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=77ac0826b45d6f13b11eb61d8da99729
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=5908c95998af0aa02af810d417b4d8be
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=c90205744e1692e3b4ae7a42fc62f3d9
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=5f936da206d1a6fdfd239f28516011f0
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=9d5191c7b1a81d539944213a2d823154
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=9c415c9ce7ecd950b372f4b4e58b29f1
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=fd592c1827ce7399a7358fbc1ed791c6
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=407e199439f2431da9a1e43c51938702
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=eae81dd1d9c300b37776a4eb7036057b
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=55d7553b7cdc81c1f5c38bd73d9cb829
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=03a453d227a1ce259d3aa441c16fdd25
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"An Expression evaluator calculates the result of an\nexpression with integers, decimals, numeric variables,\nstring variables (only for string comparisons),\narithmetic and Boolean operators and a set of functions.\nUse the editable values ​​to see the result\nof different operations"}
+- Name: QInfoStringFormatter
+  Id: g=d84a0140e73d5efa610776e221ff0766
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=0f3c7fad7312b577367ff2130e766933
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=21b5707cd7249fccfa22630bf37e09d3
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=8436efe2361addcfd9c54e4f7f2bd889
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=a29a3a0ff0f55092028eee54135d18d7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=c701047dc80a87f1711004c66482fbc6
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=b70c89d7ca88d48cf398f18ec7f46412
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=85e0758f114ee97a0513cbcfda0a0908
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=33e76cdd8293696c846064862bcc11ce
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=904828fb649bdce3c0b6d4222b534d08
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=3a19261c600df06207f9bde642f2be34
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=7bcd711da3205dcb313fd784bf84027e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=53b36f090faaf15102c44730fbce1eaf
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=ebcbbf93743d28facd1a2cc8377e921d
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=6a92c92d304196f031016ffd37d4a5a9
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=4d546572a782c49ba8b19a1a0c414d8c
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=ef17f333b323c4f50495064bc8e314fb
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=fff09156e8a73755a314e6c0d664d172
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"String formatter applies formatting to one or more\ninput variables according to a customizable rule.\nIt can also be used to format and parameterize SQL queries."}
+- Name: QInfoKeyValueConverter
+  Id: g=b8dfa0aabc5053f202839ebdf418b98a
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=b63395bead708ca835910487d1cd99b1
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=603da395852bf758a6dccf2888e1f044
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=e964027199dbfdfd91090d0ef89e2c79
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=c64df2df94696fb5a0eecc3466d1ba16
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=712c04f97c8729d3ea76b75389380703
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=1be2b8283a13d577c9b91555dfc371ce
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=69e00ea4764f63e11814dd07917874de
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=1a15027a343a3cb651e8e4069e65f375
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=67c5ec4561c93049b985ea85f2c55c54
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=75349cfc1bd57e3f5191c428f4f526a8
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=c40ae0ea811bd2d3ac57051129426931
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=719c76cac77ab03155c514faf6e1c02e
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=0bd7bdf820d3ac132fb7318773e417fd
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=d4e6f718804d70d946c96fdcdaf250c2
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=a0fa3e4b2507bdc185f849a01ccce87b
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=08a0363e03ef8fb8a278047e299b20ef
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=8705de2e17ca2abb1157cb0157919972
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Key Value Converter converts the value of the source \nvariable according to a table of key-value pairs.\nIt allows converting heterogeneous data \n(e.g.: color-value conversion)."}
+- Name: QInfoEngineeringUnitConverter
+  Id: g=ff47b8914c28e20d423e873b97ec3b04
+  Supertype: QInfo
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
+  - Name: PanelInfo
+    Id: g=94c295d762c0ca5728a3c9dca04b8df8
+    Type: Panel
+    Children:
+    - Name: Background
+      Id: g=2c9b38e2798235267e3b7df800517a0c
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Id: g=59ced096ea4990670bfc3fd519991891
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 238.0
+      - Name: Height
+        Id: g=11e3c1a14cf22453764d8db2bcbc71c6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 298.0
+      - Name: CornerRadius
+        Id: g=808a7d0c4deaa5ab9e4e2273fd9c9557
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: FillColor
+        Id: g=db96737c39b979dd27c3a8526ba14fe3
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: DynamicColorBackgroundPopup1
+          Id: g=b9e0b15b4a11fbdf90363f5251e2fe7c
+          Type: DynamicColorBackgroundPopup
+          Children:
+          - Name: Source
+            Id: g=fd1ae3c790863a8ac112b0c4fe677fcd
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=ed77055e3f285403f843eb57f6a2db58
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: BorderThickness
+        Id: g=0308834dccf6502965b6b16bdc4222a2
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: BorderColor
+        Id: g=492e553a4d827aba5fbc690b8ddf7a7b
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+        Children:
+        - Name: DynamicColorFillAccent1
+          Id: g=5f1416f5f00b2e021552d59cb75c3884
+          Type: DynamicColorFillAccent
+          Children:
+          - Name: Source
+            Id: g=368fff984d5b77a1168f742665f58d0d
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=ff0f76db1740706f61e1b3f99bc6195f
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+    - Name: InfoScrollView
+      Id: g=327376c2f4f280b59ca03f5ab03524fb
+      Type: ScrollView
+      Children:
+      - Name: Label1
+        Id: g=43033f8198d04b9bcee192336382e107
+        Type: Label
+        Children:
+        - Name: Text
+          Id: g=18f9fc8c67614203c55de0ccb22bb45a
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"An Engineering unit converter linearly converts raw data\ninto scaled values based on a range of customizable values.\nUsually, the input of an engineering unit converter \nis a dynamic link to an analog variable. \nEdit the text fields below to see how it works."}

@@ -1,0 +1,12 @@
+Name: Sections
+Id: g=2561b90540d111aaa96997c892908e34
+Type: FolderType
+Children:
+- File: UserInterface/UserInterface.yaml
+- File: Converters/Converters.yaml
+- File: Locales/Locales.yaml
+- File: Alarms/Alarms.yaml
+- File: Data/Data.yaml
+- File: Process/Process.yaml
+- File: PrototypesInstances/PrototypesInstances.yaml
+- File: Retentivity/Retentivity.yaml
