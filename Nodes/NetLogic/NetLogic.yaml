@@ -205,3 +205,6 @@ Children:
 - Name: ProjectLoadedLogLogic
   Id: g=9bf828c99d67b936e1fbcfe5059aec21
   Type: NetLogic
+- Name: ResetPdfReport
+  Id: g=6e4954e9aedde93f5b94b549eec67b53
+  Type: NetLogic
