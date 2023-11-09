@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="3.5.15.30" runtimeid="3.5.15.30" libversion="3.5.14.0" compiler="3.5.14.20" lmm="3.5.15.0" profile="CODESYS V3.5 SP15 Patch 3+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="DemoUniqo" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_STRING" size="81" swapsize="0" typeclass="String" iecname="STRING" />
+    <TypeArray name="T_ARRAY__1__10__OF_STRING" size="810" nativesize="810" typeclass="Array" iecname="ARRAY [1..10] OF STRING" basetype="T_STRING">
+      <ArrayDim minrange="1" maxrange="10" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__1__50__OF_STRING" size="4050" nativesize="4050" typeclass="Array" iecname="ARRAY [1..50] OF STRING" basetype="T_STRING">
+      <ArrayDim minrange="1" maxrange="50" />
+    </TypeArray>
+    <TypeUserDef name="T_Fan" size="3" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="Fan">
+      <UserDefElement iecname="rpm" type="T_INT" byteoffset="0" vartype="VAR" />
+      <UserDefElement iecname="running" type="T_BOOL" byteoffset="2" vartype="VAR" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Spindle" size="6" nativesize="6" typeclass="Userdef" pouclass="STRUCTURE" iecname="Spindle">
+      <UserDefElement iecname="current" type="T_INT" byteoffset="0" vartype="VAR" />
+      <UserDefElement iecname="speed" type="T_INT" byteoffset="2" vartype="VAR" />
+      <UserDefElement iecname="status" type="T_INT" byteoffset="4" vartype="VAR" />
+    </TypeUserDef>
+    <TypeArray name="T_ARRAY__1__10__OF_Fan" size="40" nativesize="40" typeclass="Array" iecname="ARRAY [1..10] OF Fan" basetype="T_Fan">
+      <ArrayDim minrange="1" maxrange="10" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__1__10__OF_Spindle" size="60" nativesize="60" typeclass="Array" iecname="ARRAY [1..10] OF Spindle" basetype="T_Spindle">
+      <ArrayDim minrange="1" maxrange="10" />
+    </TypeArray>
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="PLC_PRG">
+        <Node name="Bool1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Bool2" type="T_BOOL" access="ReadWrite" />
+        <Node name="ComboString" type="T_ARRAY__1__50__OF_STRING" access="ReadWrite" />
+        <Node name="FanArray" type="T_ARRAY__1__10__OF_Fan" access="ReadWrite" />
+        <Node name="Int1" type="T_INT" access="ReadWrite" />
+        <Node name="Int2" type="T_INT" access="ReadWrite" />
+        <Node name="IntArray" type="T_ARRAY__1__10__OF_STRING" access="ReadWrite" />
+        <Node name="SpindleArray" type="T_ARRAY__1__10__OF_Spindle" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>

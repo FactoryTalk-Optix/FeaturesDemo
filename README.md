@@ -27,4 +27,4 @@ Both projects need to be configured with proper IP and port in the OPC/UA config
 This demo acts as an OPC/UA server at port `59100`, an external client should be used such as [UaExpert](https://www.unified-automation.com/products/development-tools/uaexpert.html)
 
 ### Multiple PLCs
-PLC code can be found `DemoUniqoPlc` and needs to be downloaded on the two controllers. This is achived by replicating the same TAGs structure on both PLC and by indexing the proper device via aliases
+PLC code can be found `ProjectFiles/DemoUniqoPlc` and needs to be downloaded on the two controllers. This is achived by replicating the same TAGs structure on both PLC and by indexing the proper device via aliases

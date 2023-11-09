@@ -15,7 +15,7 @@ public class LocaleComboBoxLogic : BaseNetLogic
     {
         var localeCombo = (ComboBox)Owner;
 
-        var projectLocales = (string[])Project.Current.GetVariable("Locales").Value;
+        var projectLocales = (string[])Project.Current.GetVariable("Localization/Locales").Value;
         var modelLocales = InformationModel.MakeObject("Locales");
         modelLocales.Children.Clear();
 

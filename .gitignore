@@ -12,6 +12,6 @@ IDEVersion.txt
 !*.optix.design
 !Nodes/
 !ProjectFiles/
-!*.md
 !DesignTimeNodes/
+!README.md
 !LICENSE
