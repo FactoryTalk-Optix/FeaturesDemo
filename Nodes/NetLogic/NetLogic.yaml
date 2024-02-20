@@ -66,13 +66,13 @@ Children:
     Id: g=2925a24e82f8000335c5fb367fdf6309
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"2fe056fe3c2e7c5e637e0e915aababf7","Namespace":38}
+    Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase/Tables/DataLogger"
     Children:
     - Name: Kind
       Id: g=17cf2145ac0ba35ad9865623ca80125c
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Class: Method
     Name: Export
     Id: g=e8ec1ba4d7363d20f3b8d4f693450834

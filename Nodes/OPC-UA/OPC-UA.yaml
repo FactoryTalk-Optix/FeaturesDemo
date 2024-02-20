@@ -27,7 +27,7 @@ Children:
           Id: g=5ed80f0709589174cfc7dba7a076efb4
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"1629960ca8ff70d51f6129430124e2f5","Namespace":38}
+          Value: "/Objects/FeaturesDemo/UI"
           Children:
           - Name: Kind
             Id: g=c808c64e98e30f9433f75aea299c7bb5
@@ -43,7 +43,7 @@ Children:
           Id: g=a3c400bba3896acd962eda541449fa12
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"583e28f10cf85a44a9665c7ea578306f","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Model"
           Children:
           - Name: Kind
             Id: g=99f06a4e2f1a41f8c194d4f8e1c11040
@@ -59,7 +59,7 @@ Children:
           Id: g=d0c83a5d6a4a3175d86b0571a33118d9
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"73cce9393156a9afcacbfa49b578c683","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Converters"
           Children:
           - Name: Kind
             Id: g=a86d8961431ef6680e5421740ce31de4
@@ -75,7 +75,7 @@ Children:
           Id: g=c1cad13735f3d82a20917a812a43522d
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"7c879e97172984569c9458faf5b6b22e","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Alarms"
           Children:
           - Name: Kind
             Id: g=77baf822c9578c9010dab8a1863e7855
@@ -91,7 +91,7 @@ Children:
           Id: g=13e9ee6f0c7195bd8038c701608c5f74
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"9331712e3d1d15599c94b314a7d8cf45","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Recipes"
           Children:
           - Name: Kind
             Id: g=a4e4dc4b168b48ea1a595273b511bfa4
@@ -107,7 +107,7 @@ Children:
           Id: g=70c6d825369173e37a891c46b07a0dd2
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"d2a6cbe66db2cfa22efa885de251dc51","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Loggers"
           Children:
           - Name: Kind
             Id: g=d97ccc317ce33def3410dcc769eed167
@@ -123,7 +123,7 @@ Children:
           Id: g=ea2edb4d2289fde24d81cb0ab1ce3916
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"27050555294314d58d801fe0525ea473","Namespace":38}
+          Value: "/Objects/FeaturesDemo/DataStores"
           Children:
           - Name: Kind
             Id: g=78a52a6b9253cb23743228b0c995890e
@@ -139,7 +139,7 @@ Children:
           Id: g=2d316b3d5a86d8b9dc603d4e8dd44de1
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"4620ef69db19c983a80c7f4b3385d58e","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Reports"
           Children:
           - Name: Kind
             Id: g=8835da7cfbc0112b91fc72069c91aae2
@@ -155,7 +155,7 @@ Children:
           Id: g=d43526fe7f07840234585721a8c49e39
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"7b80bbd8e1bd1cd1de8a53b1c2a6df15","Namespace":38}
+          Value: "/Objects/FeaturesDemo/OPC-UA"
           Children:
           - Name: Kind
             Id: g=16eddfb0a3ec3607ada0ca3f39226ec4
@@ -171,7 +171,7 @@ Children:
           Id: g=9ee6397d95986994c84df4adebba3e3a
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"e2850acc5c9c305624c7a4208ff67531","Namespace":38}
+          Value: "/Objects/FeaturesDemo/CommDrivers"
           Children:
           - Name: Kind
             Id: g=57ad69253d37fb17f0f72f80bd0fba40
@@ -187,7 +187,7 @@ Children:
           Id: g=4b73424f2a88f58372883b2f16cba469
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"0c58c11a5c3ebc6532ea8bf6286ccc12","Namespace":38}
+          Value: "/Objects/FeaturesDemo/NetLogic"
           Children:
           - Name: Kind
             Id: g=bc20c113835d4b8709e65fd24ec85103
@@ -203,7 +203,7 @@ Children:
           Id: g=9b7bd7c9f464dc189b6e01c56681f913
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"24ab6bae6befe08d67379f5f22c33b63","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Users"
           Children:
           - Name: Kind
             Id: g=2b52ae28fba80997a196cd3ec12d7964
@@ -219,7 +219,7 @@ Children:
           Id: g=49feec9e9b880977131893d34d526ad5
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"3d4c8096f66f8e5b574b25c4dd9fe621","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Translations"
           Children:
           - Name: Kind
             Id: g=d83d50d48a07a73d107fe3df33d95bd6
@@ -235,7 +235,7 @@ Children:
           Id: g=a5c3f59d922ebb26957a30890e3eceaf
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"5f7a1338e568bec6eeab402071cde3be","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Retentivity"
           Children:
           - Name: Kind
             Id: g=99f35aaf6c45b064c60b4a83176e5d9d
@@ -251,7 +251,7 @@ Children:
           Id: g=126c24b7a5d5878c10f60f525de2c7e4
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"be3100f00c676033b12a0e12fd790d0f","Namespace":38}
+          Value: "/Objects/FeaturesDemo/RuntimeObjectUI"
           Children:
           - Name: Kind
             Id: g=f73f785c8797c256cf9ed658dd2316bf
@@ -271,13 +271,13 @@ Children:
           Id: g=19add581fe041e8e7ad585579edfea71
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":46,"Namespace":1}
+          Value: "/Objects/Users/Anonymous"
           Children:
           - Name: Kind
             Id: g=2d52256fbbd5bb6d0f4b0ed882e8d45f
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":14,"Namespace":1}
+            Value: "/Types/ObjectTypes/BaseObjectType/UserType"
           - Name: NodeClass
             Id: g=e1916b09b421ae72747a24d99b6beb5b
             Type: PropertyType
@@ -302,4 +302,4 @@ Children:
     Id: g=a563fe10a27f921b72d00e5f9faa167a
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 10
+    Value: 2

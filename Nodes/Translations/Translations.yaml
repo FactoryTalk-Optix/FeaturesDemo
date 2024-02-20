@@ -392,10 +392,10 @@ Children:
     Id: g=565e42d438516ace5dfb7b8e27b4bd3d
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"bb3c6cf9228e7a16e6800e07fe221fc6","Namespace":38}
+    Value: "/Objects/FeaturesDemo/Translations/LocalizationDictionary1"
     Children:
     - Name: Kind
       Id: g=8af5e7723379de004e2960c9c7c7df41
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":42,"Namespace":1}
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"

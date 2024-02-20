@@ -165,7 +165,7 @@ Children:
       Id: g=4f169de2b5a9f51c32db14df96baf7ad
       Type: DynamicLink
       DataType: NodePath
-      Value: "{NodeId:ns=38;g=5b13d70e-5d76-c567-1d36-d193db80b942}"
+      Value: "/Objects/FeaturesDemo/Model/Converters/EngineeringUnit/RawMin"
   - Name: RawMax
     Id: g=d6628446d2b63299fc25ae44c274c8e2
     Type: BaseDataVariableType
@@ -177,7 +177,7 @@ Children:
       Id: g=345fb0cef825c1433c4f1711424ab507
       Type: DynamicLink
       DataType: NodePath
-      Value: "{NodeId:ns=38;g=9c9843f2-b86f-6af4-ab1e-48d3acae1679}"
+      Value: "/Objects/FeaturesDemo/Model/Converters/EngineeringUnit/RawMax"
   - Name: ScaledMin
     Id: g=5612e529e3e88a44a23959f6b0d1a834
     Type: BaseDataVariableType
@@ -189,7 +189,7 @@ Children:
       Id: g=be5efbdfdf4838c85b48c97514f3a99d
       Type: DynamicLink
       DataType: NodePath
-      Value: "{NodeId:ns=38;g=b9e5f40f-8b46-494f-6010-58a04e0c67fa}"
+      Value: "/Objects/FeaturesDemo/Model/Converters/EngineeringUnit/ScaledMin"
   - Name: ScaledMax
     Id: g=1d5b62c9dfdd06ce51a028d1b0127650
     Type: BaseDataVariableType
@@ -201,7 +201,7 @@ Children:
       Id: g=1daf856b72cb26a8e1b4eb4215b292af
       Type: DynamicLink
       DataType: NodePath
-      Value: "{NodeId:ns=38;g=303ed058-882f-3de5-8cc3-4df08cefca57}"
+      Value: "/Objects/FeaturesDemo/Model/Converters/EngineeringUnit/ConvertedMax"
 - Name: XYCoordinatesFormatter
   Id: g=640b5538a3a29c78f20d8610bf232e91
   Supertype: StringFormatter
@@ -340,7 +340,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
       - Name: Value
         Id: g=8e468c3e8334a8b196505128f7a1326c
         Type: BaseDataVariableType
@@ -353,7 +353,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=bdebab2a-90de-200a-29d5-7d05bcea2527}"
+          Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet/BorderColor"
           Children:
           - Name: Mode
             Id: g=ea747e078b8480d8b3d4548cc4815aa5
@@ -371,7 +371,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/MaterialDark"
       - Name: Value
         Id: g=dc2c47b4ceaafc37ee2559ad42e041b1
         Type: BaseDataVariableType
@@ -384,7 +384,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=7854d4b9-49ff-d386-c4b0-ad4b19895c94}"
+          Value: "/Objects/FeaturesDemo/UI/MaterialDark/BorderColor"
           Children:
           - Name: Mode
             Id: g=dd8417330195c492b7b52101977bb5a7
@@ -402,7 +402,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
       - Name: Value
         Id: g=0bda6a03fa9fcdd21bb02ae51188992f
         Type: BaseDataVariableType
@@ -415,7 +415,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=b4cdef08-11db-374c-f3d4-bda0a7ce1201}"
+          Value: "/Objects/FeaturesDemo/UI/FriendlyLight/BorderColor"
           Children:
           - Name: Mode
             Id: g=52356efafcaa2798f943e581d9ad25a4
@@ -433,7 +433,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
       - Name: Value
         Id: g=a77cb37eefa285d4cbbf89c46ca29dd2
         Type: BaseDataVariableType
@@ -446,7 +446,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=193baf7b-34b0-c6bc-b500-ae54a1b7355e}"
+          Value: "/Objects/FeaturesDemo/UI/FriendlyDark/BorderColor"
           Children:
           - Name: Mode
             Id: g=aea073c7e7fdc7a18f98c422d9d31d6d
@@ -464,7 +464,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
       - Name: Value
         Id: g=f848922f3c0f5f372662ea0d837d122d
         Type: BaseDataVariableType
@@ -477,7 +477,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=93c5c85e-5cd2-6035-a533-08d892fdde33}"
+          Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet/BorderColor"
           Children:
           - Name: Mode
             Id: g=16c1971ad48aa4b618a47ad243a9feb8
@@ -505,7 +505,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
       - Name: Value
         Id: g=d4edf579a09766e2605058dbca6653d7
         Type: BaseDataVariableType
@@ -518,7 +518,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=7ff4fd0b-739f-9498-f0ad-84bf86c0671e}"
+          Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet/InteractiveColor"
           Children:
           - Name: Mode
             Id: g=124e07c285d0cdc73744afb7a21a8418
@@ -536,7 +536,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/MaterialDark"
       - Name: Value
         Id: g=f3c3e1ba7e731f3d14cb68a8d54b270c
         Type: BaseDataVariableType
@@ -549,7 +549,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=95c2ac46-1541-148b-a715-06eac8ddee75}"
+          Value: "/Objects/FeaturesDemo/UI/MaterialDark/InteractiveColor"
           Children:
           - Name: Mode
             Id: g=d1acdd30783c2608d1e92f2f3f41a2ae
@@ -567,7 +567,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
       - Name: Value
         Id: g=49f51cb41c3d817b684fb4b8ef11127a
         Type: BaseDataVariableType
@@ -580,7 +580,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=e7373efc-9df0-459d-ed8f-1b59b1461a86}"
+          Value: "/Objects/FeaturesDemo/UI/FriendlyLight/InteractiveColor"
           Children:
           - Name: Mode
             Id: g=cfbd7bbbc27101b07d61e3082076992d
@@ -598,7 +598,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
       - Name: Value
         Id: g=7bc1dfb3c2a2d37ed92e9cd9ee557e19
         Type: BaseDataVariableType
@@ -611,7 +611,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=825c08b4-333a-8f97-ec66-5212620a8e5e}"
+          Value: "/Objects/FeaturesDemo/UI/FriendlyDark/InteractiveColor"
           Children:
           - Name: Mode
             Id: g=959a79f16404e264e5c3ce004a700bd9
@@ -629,7 +629,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
       - Name: Value
         Id: g=912f7a56f32808602c7ba69b45f9c583
         Type: BaseDataVariableType
@@ -642,7 +642,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=ae6ebe3b-b7e2-3018-5096-940ddf216730}"
+          Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet/InteractiveColor"
           Children:
           - Name: Mode
             Id: g=faf5b317d9ade08a9a3c00c7a0499ad0
@@ -670,7 +670,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
       - Name: Value
         Id: g=b8af9a0beadffa6346e5528a1e8b0733
         Type: BaseDataVariableType
@@ -687,7 +687,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/MaterialDark"
       - Name: Value
         Id: g=ef8d75a5f950c75f54799af82dbda35e
         Type: BaseDataVariableType
@@ -704,7 +704,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
       - Name: Value
         Id: g=1d236c11a7a35841fbe837c1cc9ae45f
         Type: BaseDataVariableType
@@ -721,7 +721,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
       - Name: Value
         Id: g=5437a411cc0096196d045469bba436d6
         Type: BaseDataVariableType
@@ -738,7 +738,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
       - Name: Value
         Id: g=20799797d7fcd816e05ec3b15116db37
         Type: BaseDataVariableType
@@ -765,7 +765,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
       - Name: Value
         Id: g=1429d619ea3a25f87c1d7f2097481c9b
         Type: BaseDataVariableType
@@ -778,7 +778,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=ce11b7c8-920e-de69-8b87-b98ef8414384}"
+          Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet/AccentColor"
           Children:
           - Name: Mode
             Id: g=f90e8a7894f4748eec8df9f99efe8cee
@@ -796,7 +796,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/MaterialDark"
       - Name: Value
         Id: g=2d5e13fa03bd1847107d7c95d6a3b353
         Type: BaseDataVariableType
@@ -809,7 +809,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=c50272b5-39e1-5d38-b83d-4dd8c7046b54}"
+          Value: "/Objects/FeaturesDemo/UI/MaterialDark/AccentColor"
           Children:
           - Name: Mode
             Id: g=883a781edd673a975d45a5ab2aeaea5d
@@ -827,7 +827,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
       - Name: Value
         Id: g=3667a3f8a6f8f6cd355ee5a5e9a31308
         Type: BaseDataVariableType
@@ -840,7 +840,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=5680fc22-2f7f-553f-9b41-9998d3e63ef1}"
+          Value: "/Objects/FeaturesDemo/UI/FriendlyLight/AccentColor"
           Children:
           - Name: Mode
             Id: g=fa350f4abca8570b18db615fb8952fde
@@ -858,7 +858,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
       - Name: Value
         Id: g=bc9e7cd22e242288cb00ea945502c2fa
         Type: BaseDataVariableType
@@ -871,7 +871,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=abd83805-806e-022e-866c-e69fc7fa36c7}"
+          Value: "/Objects/FeaturesDemo/UI/FriendlyDark/AccentColor"
           Children:
           - Name: Mode
             Id: g=ea0974663e2c6e795f278930b9cebb62
@@ -889,7 +889,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
       - Name: Value
         Id: g=a2ec08a2d8bb1dc701eb90af3601e60c
         Type: BaseDataVariableType
@@ -902,7 +902,7 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           ModellingRule: None
-          Value: "{NodeId:ns=38;g=445020de-402e-12cf-3b8f-35e60712d8fe}"
+          Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet/AccentColor"
           Children:
           - Name: Mode
             Id: g=3fbdabe3720aa0c72ec0ad3084452b24
@@ -930,7 +930,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
       - Name: Value
         Id: g=c0a80e9d3b71f6d911a4985f54737799
         Type: BaseDataVariableType
@@ -947,7 +947,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/MaterialDark"
       - Name: Value
         Id: g=c8fecaf4a2db488fe22bb5c8c358fc42
         Type: BaseDataVariableType
@@ -964,7 +964,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
       - Name: Value
         Id: g=689f6b7e83ee503d3430b2a4a38166cf
         Type: BaseDataVariableType
@@ -981,7 +981,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
       - Name: Value
         Id: g=9dde2bae7d6339c138b763a046f3dad7
         Type: BaseDataVariableType
@@ -998,7 +998,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
       - Name: Value
         Id: g=7273132bfebbd3cfc74ef753ae194d78
         Type: BaseDataVariableType
@@ -1025,7 +1025,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
       - Name: Value
         Id: g=978a09bd81a160fb9eb2f46420e962d9
         Type: BaseDataVariableType
@@ -1042,7 +1042,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/MaterialDark"
       - Name: Value
         Id: g=a18cb3be06059cfe086498c3b92b6aa9
         Type: BaseDataVariableType
@@ -1059,7 +1059,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
       - Name: Value
         Id: g=e72d61054a472ed45159be1dea72a571
         Type: BaseDataVariableType
@@ -1076,7 +1076,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
       - Name: Value
         Id: g=76c1dc0ac372b0cb4a12770f9bab4a9f
         Type: BaseDataVariableType
@@ -1093,7 +1093,7 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         ModellingRule: None
-        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
       - Name: Value
         Id: g=5fd33838693bd567be6532e1cdb9c732
         Type: BaseDataVariableType

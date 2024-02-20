@@ -132,18 +132,18 @@ Children:
     Id: g=3d6d55fcf4751b643da2c8c1a8c001ce
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Id: g=3946e6edd32677987be2bab26eafd616
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: TargetNode
     Id: g=87b0a9dce43d669d7f34615598313d8b
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+    Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
       Id: g=1dfa7ab83c348209c89d22fcbf566fb1
@@ -309,13 +309,13 @@ Children:
     Id: g=6b38c2895f0600e6ce197c52c7b8feba
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Id: g=923873257ff9349f74e51ec39bcf654f
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: TableName
     Id: g=5e4bb6cb640804e601fa59b9990754d1
     Type: BaseDataVariableType
@@ -325,7 +325,7 @@ Children:
     Id: g=b112767af82890967055fca09651cd5d
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"f489b442db119b0bcfffd3d9d001f71f","Namespace":38}
+    Value: "/Objects/FeaturesDemo/Model/Data/Recipes"
     Children:
     - Name: Kind
       Id: g=210811cc76007fbacb6542e9b062301c

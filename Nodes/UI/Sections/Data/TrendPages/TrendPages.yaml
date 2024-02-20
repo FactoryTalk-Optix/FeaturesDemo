@@ -31,7 +31,7 @@ Children:
             Id: g=8d4209f98099a7ade3bfbc46ea045b4a
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=8669b0d91a8f7b8f80f6ac78f48631a5
       Type: BaseDataVariableType
@@ -52,7 +52,7 @@ Children:
             Id: g=04a19e4f084f5bc5432fd3c2870c4e7e
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Live
       Id: g=544ff23ebbb034cda146adc8b7e563f9
       Type: Label
@@ -95,7 +95,7 @@ Children:
           Id: g=b4eb2fdab4e91e716455c1fa4a192fac
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+          Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
   - Name: FillColor
     Id: g=4f8963168d7bdb1c24e910d39a68e756
     Type: BaseDataVariableType
@@ -116,7 +116,7 @@ Children:
           Id: g=034bd35fc842e97d11f9eb9d2bf95346
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+          Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
   - Name: TrendLocalTime
     Id: g=a9c364f303a0e6a2be70ccb0476aeedb
     Type: Trend
@@ -151,7 +151,7 @@ Children:
           Id: g=3dda5679d156d990cbf5b16d97a6d927
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=3e823cfc-c403-b8bd-349a-c7037da062b9}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Datalogger/Variables/Variable1"
           Children:
           - Name: Mode
             Id: g=3bbff222ec8a1d1d8c95fc957086d5ff
@@ -183,6 +183,14 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
+          - Name: Position
+            Id: g=828e9e36ad6973021eeb848c6f1690bf
+            Type: BaseDataVariableType
+            DataType: HorizontalPositionEnum
+            Value: 0
+        - Name: Thresholds
+          Id: g=45764945643295a809cd41c1bfcd3517
+          Type: BaseObjectType
       - Name: Variable2
         Id: g=0cd87e0fc498ef4b8e4a4804abd0c9a6
         Type: TrendPen
@@ -209,7 +217,7 @@ Children:
           Id: g=80a6b9310af2556ffc18a06b7abb7c6d
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=fe30e95a-d081-d6a3-a94e-34347a36185d}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Datalogger/Variables/Variable2"
           Children:
           - Name: Mode
             Id: g=43018e91573b096c7dd91adcbe4acfad
@@ -241,6 +249,14 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
+          - Name: Position
+            Id: g=6121affcf852dce81775d8597730476d
+            Type: BaseDataVariableType
+            DataType: HorizontalPositionEnum
+            Value: 0
+        - Name: Thresholds
+          Id: g=ea037c0107f932aaa073ef46e00a2c8a
+          Type: BaseObjectType
       - Name: Variable3
         Id: g=364f55c5bd38ea488ec223da32232cda
         Type: TrendPen
@@ -267,7 +283,7 @@ Children:
           Id: g=33919fe2cab181784d4aead983e65ac6
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=f7474a59-5e7a-b6d9-56ff-3eaaed80223b}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Datalogger/Variables/Folder1/Variable3"
           Children:
           - Name: Mode
             Id: g=72f8d2d62428237afca7ed863783af85
@@ -299,6 +315,14 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
+          - Name: Position
+            Id: g=886b924ad43f48def6ab59641715d8b8
+            Type: BaseDataVariableType
+            DataType: HorizontalPositionEnum
+            Value: 0
+        - Name: Thresholds
+          Id: g=28e396f356dfe21f3d996b39b61aa04d
+          Type: BaseObjectType
     - Name: XAxis
       Id: g=71244d789c71c6698d9a54863fd327ed
       Type: DateTimeAxis
@@ -318,7 +342,7 @@ Children:
           Id: g=3a65792a81ccb7e38b1afb16788546a1
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=dcc6aff4-b271-1958-1306-51df55fc90ce}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Trend/TimeWindow"
       - Name: Interactive
         Id: g=25c486d9343308a16c5910601f7f9d8d
         Type: BaseDataVariableType
@@ -334,7 +358,13 @@ Children:
           Id: g=cd93c698c210d8365112a6d60b5cbf84
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=1ac021d8-ea7d-b1d1-4604-b5ed8298cb54}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Trend/DateTime"
+      - Name: SnapPosition
+        Id: g=447bd50be57c8bf181a678a100ff90ba
+        Type: BaseDataVariableType
+        DataType: SnapPositionEnum
+        ModellingRule: Optional
+        Value: 1
     - Name: YAxis
       Id: g=61456758fa7936eea080bc0f6daceb0f
       Type: ValueAxis
@@ -359,6 +389,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+      - Name: Position
+        Id: g=793755e7f780aa4aca074d3327a048ce
+        Type: BaseDataVariableType
+        DataType: HorizontalPositionEnum
+        Value: 0
     - Name: LegendVisible
       Id: g=a498d7f05796890ff5ddc1a8acb14849
       Type: BaseDataVariableType
@@ -426,6 +461,15 @@ Children:
       Value: 3
     - Class: Reference
       Target: ns=7;i=1129
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=1201
+      Direction: Forward
+    - Name: TimeRanges
+      Id: g=456b1baee0f43baa29dff1faf3e991a0
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=7;i=1209
       Direction: Forward
   - Name: HorizontalAlignment
     Id: g=73ed9e3f36b8fedfec7ecfc48991d690
@@ -544,7 +588,7 @@ Children:
             Id: g=31914e9bf3369ddca25c580483b3638e
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=9fe4c84e2ac94515b9d5bada6487b2c2
       Type: BaseDataVariableType
@@ -565,7 +609,7 @@ Children:
             Id: g=ca4ff7eacc057ae872982f3d467ecce7
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Historical
       Id: g=5d91a0ecaee118b4dafd70d05eb098fe
       Type: Label
@@ -608,7 +652,7 @@ Children:
           Id: g=6b817a9e16660fa03e6de5e0d7e710dd
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+          Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
   - Name: FillColor
     Id: g=f348f78f8da35902b7001a8b7518fb58
     Type: BaseDataVariableType
@@ -629,7 +673,7 @@ Children:
           Id: g=ada0d166e59cbfa2ff401c3863059aa6
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+          Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
   - Name: TrendLiveHistory
     Id: g=3366132dd72b290867ea9afd2df37c10
     Type: Trend
@@ -664,7 +708,7 @@ Children:
           Id: g=6edb635d85728c66336a69a318d41e44
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=0d702603-9746-2f54-52e3-41f741331208}"
+          Value: "/Objects/FeaturesDemo/Loggers/DataLogger/VariablesToLog/Variable1/LastValue"
           Children:
           - Name: Mode
             Id: g=800c2a537cb6364c4e2241d7d76c001c
@@ -672,6 +716,9 @@ Children:
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
+        - Name: Thresholds
+          Id: g=3db66d329130b27ed6f156a7e5eb141f
+          Type: BaseObjectType
       - Name: Variable2
         Id: g=7dd4ee829e09a1426757bd1db75d6d85
         Type: TrendPen
@@ -698,7 +745,7 @@ Children:
           Id: g=2ae673418f5766ee787e641cf5306df1
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=d0158bc7-657e-3c78-73af-28c18673515a}"
+          Value: "/Objects/FeaturesDemo/Loggers/DataLogger/VariablesToLog/Variable2/LastValue"
           Children:
           - Name: Mode
             Id: g=dc020421b57f3bc63ea4c695e360f297
@@ -706,6 +753,9 @@ Children:
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
+        - Name: Thresholds
+          Id: g=c1c01d6202c7ee8bed0733a7dc70b2a5
+          Type: BaseObjectType
       - Name: Variable3
         Id: g=9b8c6bdc9141a1f27458076b346a89a1
         Type: TrendPen
@@ -732,7 +782,7 @@ Children:
           Id: g=3e8831e55b20951f73bcc1ecc2036dcc
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=e4edf653-84f7-4a0f-52cc-817932cf4422}"
+          Value: "/Objects/FeaturesDemo/Loggers/DataLogger/VariablesToLog/Variable3/LastValue"
           Children:
           - Name: Mode
             Id: g=1c1bb9b0ce2eac8978eecd1ad1e70444
@@ -740,6 +790,9 @@ Children:
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
+        - Name: Thresholds
+          Id: g=1369e9252790e2d168f4e548ddbbcae8
+          Type: BaseObjectType
     - Name: XAxis
       Id: g=5e27498bad969d39a58ce6dc4beae25e
       Type: DateTimeAxis
@@ -759,7 +812,7 @@ Children:
           Id: g=97a1f3cd224a6cf58a7372829f1e756c
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=dcc6aff4-b271-1958-1306-51df55fc90ce}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Trend/TimeWindow"
       - Name: Interactive
         Id: g=e906939182b9e8aaa69c1aee3c66591a
         Type: BaseDataVariableType
@@ -770,6 +823,12 @@ Children:
         Type: BaseDataVariableType
         DataType: DateTime
         Value: "1601-01-01T00:00:00.0000000"
+      - Name: SnapPosition
+        Id: g=672d3b9f1483a19c58b4e4f034fcefb5
+        Type: BaseDataVariableType
+        DataType: SnapPositionEnum
+        ModellingRule: Optional
+        Value: 1
     - Name: YAxis
       Id: g=5c0d75bcec8cf974b8dac9833077f3fd
       Type: ValueAxis
@@ -794,6 +853,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+      - Name: Position
+        Id: g=ad4307b9aa2c9c54cbeb9e31d7f6af9a
+        Type: BaseDataVariableType
+        DataType: HorizontalPositionEnum
+        Value: 0
     - Name: LegendVisible
       Id: g=30c06508f08e2459cea1e8e0eedc225f
       Type: BaseDataVariableType
@@ -846,7 +910,7 @@ Children:
       Type: NodePointer
       DataType: NodeId
       ModellingRule: Optional
-      Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+      Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
       Children:
       - Name: ItemKind
         Id: g=150f7262e10f7c122f943a3ea8beed5e
@@ -878,6 +942,15 @@ Children:
       Value: 2
     - Class: Reference
       Target: ns=7;i=1129
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=1201
+      Direction: Forward
+    - Name: TimeRanges
+      Id: g=cc3d483a18e314a1ec9699293e9e6f3e
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=7;i=1209
       Direction: Forward
   - Name: HorizontalAlignment
     Id: g=092cc69605c1d2b36b809ab732dde5f1
@@ -996,7 +1069,7 @@ Children:
             Id: g=f1c54d14089cce87ecd5afddc9ffae09
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=6f7e3d2e296e69725942b1338b941137
       Type: BaseDataVariableType
@@ -1017,7 +1090,7 @@ Children:
             Id: g=00e3f69e9e028b4d8d68ebe184385c21
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Query
       Id: g=49e689766fd34982de5931e7b95ba642
       Type: Label
@@ -1060,7 +1133,7 @@ Children:
           Id: g=a0bc5a144f9a394c0b637815a8354d2c
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+          Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
   - Name: FillColor
     Id: g=6435ec6c1c4499ab9bcbb83872b66b54
     Type: BaseDataVariableType
@@ -1081,7 +1154,7 @@ Children:
           Id: g=36950dc504df860072aaf45ac50b557a
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+          Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
   - Name: TrendWithQuery
     Id: g=d9578425cbb2c1a5214eca93a9cbec9f
     Type: Trend
@@ -1112,6 +1185,9 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#ff0000"
+        - Name: Thresholds
+          Id: g=4d34d2fe1ec372117972653ae4809516
+          Type: BaseObjectType
       - Name: Variable2
         Id: g=cf1b3746cc143f668ab84190879ba386
         Type: TrendPen
@@ -1134,6 +1210,9 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#008000"
+        - Name: Thresholds
+          Id: g=37e572eabfdfdec98fa289d1b1a1a082
+          Type: BaseObjectType
       - Name: Variable3
         Id: g=43f39a71208ba1348915f955c9597886
         Type: TrendPen
@@ -1156,6 +1235,9 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0000ff"
+        - Name: Thresholds
+          Id: g=227f5bfde99e2677a505c57e62dc9683
+          Type: BaseObjectType
     - Name: XAxis
       Id: g=4210e378c495dbd84e4d7f70c534bdf3
       Type: DateTimeAxis
@@ -1175,7 +1257,7 @@ Children:
           Id: g=107bc6cf55e77a320f1ee7ee5a0c268c
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=dcc6aff4-b271-1958-1306-51df55fc90ce}"
+          Value: "/Objects/FeaturesDemo/Model/Data/Trend/TimeWindow"
       - Name: Interactive
         Id: g=466ba77e799f0fc25ff98fb29039fbb3
         Type: BaseDataVariableType
@@ -1186,6 +1268,12 @@ Children:
         Type: BaseDataVariableType
         DataType: DateTime
         Value: "1601-01-01T00:00:00.0000000"
+      - Name: SnapPosition
+        Id: g=ab18a126e51314b880354eb3cb1b6c51
+        Type: BaseDataVariableType
+        DataType: SnapPositionEnum
+        ModellingRule: Optional
+        Value: 1
     - Name: YAxis
       Id: g=387a3bf8eb1e39877ad5e12a041fcecf
       Type: ValueAxis
@@ -1210,6 +1298,11 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+      - Name: Position
+        Id: g=1f828f10e7890ebf94695cc7746fd9f9
+        Type: BaseDataVariableType
+        DataType: HorizontalPositionEnum
+        Value: 0
     - Name: LegendVisible
       Id: g=f888fa58c768421fba6ebb10f473ef80
       Type: BaseDataVariableType
@@ -1273,7 +1366,7 @@ Children:
       Type: NodePointer
       DataType: NodeId
       ModellingRule: Optional
-      Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+      Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
       Children:
       - Name: ItemKind
         Id: g=625842cbfe26c5e1118b4fb4d2c7e552
@@ -1305,6 +1398,15 @@ Children:
       Value: 2
     - Class: Reference
       Target: ns=7;i=1129
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=1201
+      Direction: Forward
+    - Name: TimeRanges
+      Id: g=5545b848032fdd4755621f97b6270f5f
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=7;i=1209
       Direction: Forward
   - Name: QueryText
     Id: g=b77ff04ff3bcf0b68c987f1ea82e1afd

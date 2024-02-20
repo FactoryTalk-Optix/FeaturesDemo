@@ -19,7 +19,7 @@ Children:
 - Name: RecipeSchema
   Type: Alias
   DataType: NodeId
-  Value: {"IdType":2,"Id":"444fd04b7e8899c0ad4ea53e4555e08d","Namespace":38}
+  Value: "/Objects/FeaturesDemo/Recipes/RecipeSchema/EditModel"
   Children:
   - Name: Kind
     Type: PropertyType
@@ -29,7 +29,7 @@ Children:
 - Name: StyleRecipeSchema
   Type: Alias
   DataType: NodeId
-  Value: {"IdType":2,"Id":"1358f8b23bb27e83044e3e940c1d6e94","Namespace":38}
+  Value: "/Objects/FeaturesDemo/Recipes/StyleRecipeSchema/EditModel"
   Children:
   - Name: Kind
     Type: PropertyType
@@ -39,19 +39,19 @@ Children:
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 0
   - Name: MinimumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 0
 - Name: Authentication
@@ -60,21 +60,21 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: BranchingEnabled
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Boolean
     Value: false
 - Name: Localization
   Type: PropertyGroup
   Children:
   - Name: Locales
-    Type: PropertyType
-    DataType: String
+    Type: BaseDataVariableType
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US","it-IT","zh-CN"]
   - Name: LocaleFallbackList
-    Type: PropertyType
-    DataType: String
+    Type: BaseDataVariableType
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]

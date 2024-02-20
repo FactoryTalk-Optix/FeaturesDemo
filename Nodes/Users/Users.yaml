@@ -49,7 +49,6 @@ Children:
       AccessLevel: Read
       ValueRank: OneDimension
       ArrayDimensions: [0]
-      Value: []
 - Name: UserMail
   Id: g=a155cf67f82de4a3e4c82a830acc383f
   Type: UserType

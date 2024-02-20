@@ -14,7 +14,7 @@ Children:
       Id: g=94dc9596f92d38ce862daec2b9e712ce
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"24ab6bae6befe08d67379f5f22c33b63","Namespace":38}
+      Value: "/Objects/FeaturesDemo/Users"
       Children:
       - Name: Kind
         Id: g=e60757936d782404fc3f51c3f513aa7b
@@ -50,7 +50,7 @@ Children:
       Id: g=153b90780e6faff9e4fdbae1dab5eccc
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"bb3c6cf9228e7a16e6800e07fe221fc6","Namespace":38}
+      Value: "/Objects/FeaturesDemo/Translations/LocalizationDictionary1"
       Children:
       - Name: Kind
         Id: g=43c97f825a40064d8f95daa98a6f5d03

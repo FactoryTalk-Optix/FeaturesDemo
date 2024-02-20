@@ -16,13 +16,13 @@ Children:
     Id: g=e89c4564d0e6885205e142adb80c8f2f
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Id: g=a63179ffca0a586287bffeb4bdf7e09f
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
     - Name: NodeClass
       Id: g=29ef9190794b53ce377aab073f6da15d
       Type: PropertyType
@@ -100,13 +100,13 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2915}
+        Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         Children:
         - Name: Kind
           Id: g=8abd990b598cf8b266fd18df62da100a
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
         - Name: NodeClass
           Id: g=039ff215659ad3488469dd08ff332569
           Type: PropertyType
@@ -170,16 +170,6 @@ Children:
       Id: g=9f6f9834c76571b82b61f5bbce5980e4
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
   - Name: EventFieldsToLog
     Id: g=a6adb753337441df24fbe8f3d84f8a54
     Type: BaseObjectType
@@ -389,13 +379,13 @@ Children:
     Id: g=6ebef141eb39943ea34378e9bfe56311
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Id: g=cebd64a750588ca0f5bafbabc069ad56
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: EventConfigurations
     Id: g=5ec8c86c1698ff3192e7b83288204f5a
     Type: BaseObjectType
@@ -409,13 +399,13 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":215,"Namespace":1}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/UserSessionEvent"
         Children:
         - Name: Kind
           Id: g=638821a94811ec20f3e42ebdf3ee9c92
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
       - Name: ExcludeNonInteractiveSessions
         Id: g=0618c22aa8ea010a587740fe00c7d1f0
         Type: PropertyType
@@ -430,13 +420,13 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2100}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/AuditUpdateEventType/AuditWriteUpdateEventType"
         Children:
         - Name: Kind
           Id: g=71b7ba9e64a7b3267eb2500d46f13923
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
       - Name: ExcludeNonInteractiveSessions
         Id: g=fa86db200c1f3d478e6ece05fbccd120
         Type: PropertyType
@@ -447,13 +437,18 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"IdType":2,"Id":"a8460345da0f75259ae91843f91f9551","Namespace":38}
+        Value: "/Objects/FeaturesDemo/Model/Data/Datalogger/Variables"
         Children:
         - Name: Kind
           Id: g=4add8cdea84d6a470b8f0ded2ca4d0bf
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":58}
+          Value: "/Types/ObjectTypes/BaseObjectType"
+      - Name: MonitorSubtree
+        Id: g=81e90167808ae4d31add6a7691413928
+        Type: PropertyType
+        DataType: Boolean
+        Value: true
     - Name: EventConfiguration3
       Id: g=158b2c43a94ea7fd7f6f7b7278a9c7cb
       Type: EventConfiguration
@@ -463,13 +458,13 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2790}
+        Value: "/Types/EventTypes/BaseEventType/AuditEventType/AuditUpdateMethodEventType/AuditConditionEventType"
         Children:
         - Name: Kind
           Id: g=47d682c802fae402fab940ad4d8441b1
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
       - Name: ExcludeNonInteractiveSessions
         Id: g=08cd534af8392bd2eb40af085760334b
         Type: PropertyType
@@ -552,16 +547,6 @@ Children:
       Id: g=e474eb567ffdc732c90b5219a5a876e4
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
     - Name: SourceName
       Id: g=4fab7fb89b2c0e85887923d2ce2c6f96
       Type: BaseDataVariableType
@@ -761,13 +746,13 @@ Children:
     Id: g=77aabb70a53a5701f5080436a405ea17
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":38}
+    Value: "/Objects/FeaturesDemo/DataStores/EmbeddedDatabase"
     Children:
     - Name: Kind
       Id: g=0ade3528ba73b83a0f2e1571678d4279
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":23}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Id: g=8c1947c8e87fdc120ae4edd3750c995c
     Type: BaseObjectType
@@ -887,7 +872,7 @@ Children:
         Id: g=5b1ceac438b976801fa00c47d0141135
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Data/Datalogger/Variables/Variable3"
+        Value: "../../../../Model/Data/Datalogger/Variables/Folder1/Variable3"
         Children:
         - Name: Mode
           Id: g=301653430419005a3c30ffc7da89f728

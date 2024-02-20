@@ -203,7 +203,7 @@ Children:
     Id: g=b596b919a7f333dd3811ea401d39ff21
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"a155cf67f82de4a3e4c82a830acc383f","Namespace":38}
+    Value: "/Objects/FeaturesDemo/Users/UserMail"
     Children:
     - Name: Kind
       Id: g=bfe5c0a0d15813e4a398f6f17e5e7b3f
@@ -214,7 +214,7 @@ Children:
     Id: g=c03cc29f8c292b018e0f8cc0ee488ad0
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"332f12f4f3b7495aca8d48232f5dcc11","Namespace":38}
+    Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic"
     Children:
     - Name: Kind
       Id: g=de61d95a8cfec8883ece7a0b8128a551
@@ -269,7 +269,7 @@ Children:
     Id: g=9e3649950ed90bc9a5ca1951eab668de
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"a155cf67f82de4a3e4c82a830acc383f","Namespace":38}
+    Value: "/Objects/FeaturesDemo/Users/UserMail"
     Children:
     - Name: Kind
       Id: g=63f5c4c4e2902f0cf585a4524031c45b
@@ -280,7 +280,7 @@ Children:
     Id: g=92342c71bc1514bb92e34e613e7ac637
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"332f12f4f3b7495aca8d48232f5dcc11","Namespace":38}
+    Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic"
     Children:
     - Name: Kind
       Id: g=8f001e467c8fd87ba593f53ffe0b9da8

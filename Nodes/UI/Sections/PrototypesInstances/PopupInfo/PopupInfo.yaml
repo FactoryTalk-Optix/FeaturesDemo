@@ -56,7 +56,7 @@ Children:
               Id: g=0a6656ba287bcd0e86d169e691196bbb
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: BorderThickness
         Id: g=f1cc67bc9f0417e15cabd2df56e9adfc
         Type: BaseDataVariableType
@@ -83,7 +83,7 @@ Children:
               Id: g=54dad0f114dffa7e5dc3cfd370d6e7c2
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: InfoScrollView
       Id: g=e493645a70790d8756fac09010a46114
       Type: ScrollView
@@ -152,7 +152,7 @@ Children:
               Id: g=40e9e834a1b2fb1635eb48f704ce2dcc
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: BorderThickness
         Id: g=fbc343d164d25d95747891222d23477a
         Type: BaseDataVariableType
@@ -179,7 +179,7 @@ Children:
               Id: g=96f70c572866b3e0dcb67aab0c1b3017
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: InfoScrollView
       Id: g=d62f106cdf0c70c68607ded2f6df43e1
       Type: ScrollView

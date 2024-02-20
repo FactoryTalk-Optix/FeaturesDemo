@@ -76,6 +76,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -196,6 +202,9 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9455
   - Name: InputNode
     Type: PropertyType
     DataType: NodeId
@@ -252,6 +261,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -376,6 +391,9 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9455
   - Name: InputNode
     Type: PropertyType
     DataType: NodeId
@@ -432,6 +450,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -552,6 +576,9 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9455
   - Name: InputNode
     Type: PropertyType
     DataType: NodeId
@@ -608,6 +635,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -772,6 +805,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -940,6 +979,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -1104,6 +1149,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode
@@ -1272,6 +1323,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
       Value: false
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9160
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: Quality
     Type: ConditionVariableType
     DataType: StatusCode

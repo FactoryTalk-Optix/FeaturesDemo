@@ -25,13 +25,13 @@ Children:
         Id: g=9b1c7c873750e70e1d103407848fac2a
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"f9531fdfd6debd7999c17906aa13cd1d","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/GridPage"
         Children:
         - Name: Kind
           Id: g=e4c0559d2f61b2970d755fb9c5339cb7
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: Panel2
       Id: g=45798b913a463d3cad470d9e1d555cee
       Type: NavigationPanelItem
@@ -45,13 +45,13 @@ Children:
         Id: g=287d7be5d60f19d3afc307694ce7fdaf
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"5c37d1984b62e1a593811523c9883b94","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/AreaPage"
         Children:
         - Name: Kind
           Id: g=10d2002968de45734885083065f275e7
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: Panel3
       Id: g=0f250b751db8096ed7653d5aea928ca2
       Type: NavigationPanelItem
@@ -65,13 +65,13 @@ Children:
         Id: g=f13f6955ef44244c7729c1d9669f2a87
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"c5fa408c3d3921ee2f0f3a3e5ea249df","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/HistoryPage"
         Children:
         - Name: Kind
           Id: g=51bbc86bc5cc7e736674e772c4c477be
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: Panel4
       Id: g=192a99c4036a0e8bfb887b04134a9855
       Type: NavigationPanelItem
@@ -85,13 +85,13 @@ Children:
         Id: g=6f4483fb6453d2e519acd0557960cd85
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"19a1231515fe3aaef77480097ae873df","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/MailEventPage"
         Children:
         - Name: Kind
           Id: g=0a7290f9145c5eaeb195a7737bb684b1
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
   - Name: CurrentPanel
     Id: g=969a2420a706c5a2585209fb13a0aff2
     Type: NodePointer
@@ -103,7 +103,7 @@ Children:
       Id: g=2082852770cddfcfcdd245153bbb81b3
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":6,"Namespace":7}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
   - Name: Width
     Id: g=d876721837f664bb86fb4545e37d62be
     Type: BaseVariableType
@@ -160,7 +160,7 @@ Children:
               Id: g=a87c7e5195f5cb32b150f389aec38e69
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
           - Name: Pairs
             Id: g=dc86b19dafb84518e6a160b6b73a0a62
             Type: BaseObjectType
@@ -176,7 +176,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
               - Name: Value
                 Id: g=57456ef7cc4fb291cf41c0ed23a949a2
                 Type: BaseDataVariableType
@@ -193,7 +193,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/MaterialDark"
               - Name: Value
                 Id: g=46bcc779d6bbdfdafe48be90b326fbfc
                 Type: BaseDataVariableType
@@ -210,7 +210,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
               - Name: Value
                 Id: g=b10915ee7a59d76180fac086311d0c58
                 Type: BaseDataVariableType
@@ -227,7 +227,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
               - Name: Value
                 Id: g=f15abddaa938dd70468ccc03109752ec
                 Type: BaseDataVariableType
@@ -244,7 +244,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
               - Name: Value
                 Id: g=6bc681d8b36fbd97da049ee1f8cf8a37
                 Type: BaseDataVariableType
@@ -289,13 +289,13 @@ Children:
         Id: g=f17600ff8712b48c7390d2e56e36fa07
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"446cd1e27388487229e9d76d5e542adb","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/PopupInfo/QInfoGrid"
         Children:
         - Name: Kind
           Id: g=9e3f19a4c3d18dbd47b40dc92e79cea8
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ImagePath
         Id: g=84f4a6fe4a9d2af1d5f84193d7533cf0
         Type: BaseDataVariableType
@@ -316,7 +316,7 @@ Children:
               Id: g=e39e381c329972eed788aa3d583da023
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=66459644ac6cdd03b58a90d48fd1203a
       Type: BaseDataVariableType
@@ -337,7 +337,7 @@ Children:
             Id: g=a71c2786158a9fbaedf0eb8f17a3f393
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Session
       Id: g=b61ec710350aba181f10d8f682f408e4
       Type: Rectangle
@@ -362,7 +362,7 @@ Children:
               Id: g=0f7eade06063d331d1cc2996c46a113f
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: ActualSession
         Id: g=b172f7385531df08d18f7974eefaed06
         Type: Label
@@ -670,7 +670,7 @@ Children:
                 Id: g=6a32b6a73736516d70b927874993450e
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
         - Name: FillColor
           Id: g=2de41dda45245dc4243b63870eab1826
           Type: BaseDataVariableType
@@ -691,7 +691,7 @@ Children:
                 Id: g=6e7e2ed33f1cb84ecde9ffea7aac5d39
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: AlarmGrid
         Id: g=d02fc88441f46787499a22acfe55aa43
         Type: Panel
@@ -745,7 +745,7 @@ Children:
               Id: g=38e0e37db36786a454675003dce5bb33
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":16,"Namespace":7}
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
               Id: g=c568d28cff25c331c0b80540404b09dc
               Type: BaseObjectType
@@ -764,7 +764,7 @@ Children:
                     Id: g=3bcfcbef6918195f14fba85ec73b2225
                     Type: PropertyType
                     DataType: NodeId
-                    Value: {"Id":58}
+                    Value: "/Types/ObjectTypes/BaseObjectType"
                   - Name: NodeClass
                     Id: g=aceba7673330b81d640af93659f08e7e
                     Type: PropertyType
@@ -881,7 +881,7 @@ Children:
               Id: g=ed4a8c42313945c6a265dc1deb8497cd
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":16,"Namespace":7}
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
               Id: g=0fc565dc0c4390ab1246197b1d687a08
               Type: BaseObjectType
@@ -894,13 +894,13 @@ Children:
                   Id: g=43781255e261d9b242cca68a764aeb21
                   Type: NodePointer
                   DataType: NodeId
-                  Value: {"Id":64,"Namespace":19}
+                  Value: "/Objects/Commands/AlarmCommands"
                   Children:
                   - Name: Kind
                     Id: g=bfbeeb45d5df6080212b123b3244cc14
                     Type: PropertyType
                     DataType: NodeId
-                    Value: {"Id":58}
+                    Value: "/Types/ObjectTypes/BaseObjectType"
                   - Name: NodeClass
                     Id: g=f59213c4e2daffa3ddf0c9f2f96cb85d
                     Type: PropertyType
@@ -998,7 +998,7 @@ Children:
               Id: g=61a3fb432f93a01d5d42fc3e4950c7c5
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":16,"Namespace":7}
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
               Id: g=350d6151ce49a27c5aa055b3384cccdc
               Type: BaseObjectType
@@ -1017,7 +1017,7 @@ Children:
                     Id: g=a9bf1e07c3550c68665500ed45e0df5c
                     Type: PropertyType
                     DataType: NodeId
-                    Value: {"Id":58}
+                    Value: "/Types/ObjectTypes/BaseObjectType"
                   - Name: NodeClass
                     Id: g=879dbd4a3f4596f3e523a826a46b2581
                     Type: PropertyType
@@ -1134,7 +1134,7 @@ Children:
               Id: g=c1aa1e7c5290c1a71d2ff557b608d8ea
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":16,"Namespace":7}
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
               Id: g=295cf455a83882f49e9ff4842d1a5f0e
               Type: BaseObjectType
@@ -1147,13 +1147,13 @@ Children:
                   Id: g=fbadd82481323ec4e92d59d6c9ee46ac
                   Type: NodePointer
                   DataType: NodeId
-                  Value: {"Id":64,"Namespace":19}
+                  Value: "/Objects/Commands/AlarmCommands"
                   Children:
                   - Name: Kind
                     Id: g=79086d6a30f2732d66009f00179c833a
                     Type: PropertyType
                     DataType: NodeId
-                    Value: {"Id":58}
+                    Value: "/Types/ObjectTypes/BaseObjectType"
                   - Name: NodeClass
                     Id: g=c961afbdcd2a1c85c7e5cd12f572df42
                     Type: PropertyType
@@ -1245,7 +1245,7 @@ Children:
               Id: g=41b58cbcd09bdc8ab024e564d6af8eff
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":16,"Namespace":7}
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
             - Name: MethodsToCall
               Id: g=3e3b9acb843460cb38cfd31bb86de96d
               Type: BaseObjectType
@@ -1258,13 +1258,13 @@ Children:
                   Id: g=e011f423a16cff38d4c9bfb9b522e903
                   Type: NodePointer
                   DataType: NodeId
-                  Value: {"Id":121,"Namespace":7}
+                  Value: "/Objects/Commands/UICommands"
                   Children:
                   - Name: Kind
                     Id: g=aaf9b0b761a5a4b7a1ee30bdb1984ab7
                     Type: PropertyType
                     DataType: NodeId
-                    Value: {"Id":58}
+                    Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: ns=5;Method
                   Id: g=accfaa587124b2e16be5e0c13d9cf008
                   Type: BaseDataVariableType
@@ -1279,12 +1279,13 @@ Children:
                     Type: BaseDataVariableType
                     DataType: NodeId
                     Description: {"NamespaceIndex":7,"TextId":"OpenDialogDialogDescription"}
-                    Value: {"IdType":2,"Id":"9d547aef4f3e1801b53e5fc72259000b","Namespace":38}
+                    Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/PopupPDF"
                   - Name: AliasNode
                     Id: g=2108a8fec3e191a210390b37992ef4fe
                     Type: BaseDataVariableType
                     DataType: NodeId
                     Description: {"NamespaceIndex":7,"TextId":"OpenDialogAliasNodeDescription"}
+                    ValueRank: ScalarOrOneDimension
                     Value: {"IdType":0,"Id":0,"Namespace":-1}
                     Children:
                     - Name: DynamicLink
@@ -1401,7 +1402,7 @@ Children:
               Id: g=3ea0420ac22498ffe20f27d1b7b63d31
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":2915}
+              Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
             - Name: Kind
               Id: g=b49d2d7a24443fc4419c9c3e16f0e360
               Type: PropertyType
@@ -1411,7 +1412,7 @@ Children:
               Id: g=9fea1c025fa99b0cc99d1bc0e7a78aec
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=19;i=45}@Pointer"
+              Value: "/Objects/RetainedAlarms/LocalizedAlarms@Pointer"
           - Name: Query
             Id: g=30b63280045e384f290d192ea079334f
             Type: BaseDataVariableType
@@ -2061,7 +2062,7 @@ Children:
               Id: g=96420ce6fb0cd93f44307b777ba4c918
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":2915}
+              Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
           - Name: Width
             Id: g=d435a0d055b1c26ad706ccb2a0e2c7c8
             Type: BaseVariableType
@@ -2084,7 +2085,7 @@ Children:
               Id: g=e787211d2e575ee04686f1c66cf730f0
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":2915}
+              Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
           - Name: HorizontalAlignment
             Id: g=c493cf7e526dfcfcfd5a69aa00f87c5f
             Type: BaseVariableType
@@ -2233,7 +2234,7 @@ Children:
           Id: g=a2584a04bfcae3ad0b6c5c15195a3066
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=e3fef87f-5c1f-271c-01be-9900e037a2d6}"
+          Value: "/Objects/FeaturesDemo/Model/Alarms/Voltage"
           Children:
           - Name: Mode
             Id: g=db5a6e2df5562ad62a0b145c190eec52
@@ -2273,7 +2274,7 @@ Children:
           Id: g=deb2a7874badb9fce06b50ccd71c8ec9
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=b15784f5-9dd5-dbd0-5c36-e3ae155cfa73}"
+          Value: "/Objects/FeaturesDemo/Model/Alarms/Pressure"
           Children:
           - Name: Mode
             Id: g=6f8ead10318fe7b53d48c5d45b1c4992
@@ -2313,7 +2314,7 @@ Children:
           Id: g=4858c316b37204acd3e8d2b37f1975be
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=aedec678-686b-3f80-1743-e90d68c03c30}"
+          Value: "/Objects/FeaturesDemo/Model/Alarms/Temperature"
           Children:
           - Name: Mode
             Id: g=1bcdb170ae64bffe2305354938de321b
@@ -2398,7 +2399,7 @@ Children:
             Id: g=e56ebedeb73da908784ceb27cc7a97dd
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=c24b91610ae78bcddae17ebd192acd17
       Type: BaseDataVariableType
@@ -2419,7 +2420,7 @@ Children:
             Id: g=1e148ef0c9bdf57db6a084fec999aa7d
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: AlarmBanner
       Id: g=ef3f04cd1f658557ae48d01abe72a9b8
       Type: RowLayout
@@ -2563,7 +2564,7 @@ Children:
               Id: g=cdc157b9b19b96a851bafe249cd096ca
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":62}
+              Value: "/Types/VariableTypes/BaseVariableType"
             - Name: NodeClass
               Id: g=62e00e7795e1e66f5554843c0bc12580
               Type: PropertyType
@@ -2640,7 +2641,7 @@ Children:
             Id: g=5db55895776ea7a7f54b7047dd8a4c99
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: CurrentDisplayedAlarmIndex
           Id: g=dcfc832da0eb824820e7c375196732b8
           Type: BaseDataVariableType
@@ -2703,7 +2704,7 @@ Children:
             Id: g=8bca6134dc61c32e3178c31e3c252f85
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=59d5d980bfee47d011a952319ca8e11e
             Type: BaseObjectType
@@ -2722,7 +2723,7 @@ Children:
                   Id: g=a0f70b4a6dacacc76d6e86fefb7f8081
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Id: g=92c1d999dba3e90a8749a67f196e51f9
                   Type: PropertyType
@@ -2859,7 +2860,7 @@ Children:
             Id: g=dace34affe9be90cd59e8c4c0b78813a
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=a640c4f869eccaf66abf02b046271d94
             Type: BaseObjectType
@@ -2878,7 +2879,7 @@ Children:
                   Id: g=5860970d46ffdf1a270ba53fefaecc9e
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Id: g=ea68328bd8db4ca1e9b55e237f29a189
                   Type: PropertyType
@@ -3024,7 +3025,7 @@ Children:
               Id: g=a52ca560b15e1941267e32fdcfd93b13
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
           - Name: Pairs
             Id: g=31cd9c31492692e0d91c0bb74b675a08
             Type: BaseObjectType
@@ -3040,7 +3041,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
               - Name: Value
                 Id: g=020fde945c5ec7b13aa1904d2d33c42f
                 Type: BaseDataVariableType
@@ -3057,7 +3058,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/MaterialDark"
               - Name: Value
                 Id: g=695a278a86e3ead1c49171cbb47d96b7
                 Type: BaseDataVariableType
@@ -3074,7 +3075,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
               - Name: Value
                 Id: g=460a885bf082a02e3c7164d522858b24
                 Type: BaseDataVariableType
@@ -3091,7 +3092,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
               - Name: Value
                 Id: g=32c26afcac9b4c2f0b7d0b70b0b6275b
                 Type: BaseDataVariableType
@@ -3108,7 +3109,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
               - Name: Value
                 Id: g=76ad88b68fbe7f950cb4ce75688d0dde
                 Type: BaseDataVariableType
@@ -3153,13 +3154,13 @@ Children:
         Id: g=1965f5afd9eca6c9532b8220d8493bf5
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"239cd6a0b689c1ef986d290a34dc2150","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/PopupInfo/QInfoArea"
         Children:
         - Name: Kind
           Id: g=96ac963ae421436ad2066736faaadd54
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ImagePath
         Id: g=11ce4f288ea1103f4d08865a40789b51
         Type: BaseDataVariableType
@@ -3180,7 +3181,7 @@ Children:
               Id: g=9018958876b66ce89b75422d7266764a
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=d802bd36d923104818fbbebda86eabe5
       Type: BaseDataVariableType
@@ -3201,7 +3202,7 @@ Children:
             Id: g=7f02bcde724e57a860d007b71a3fd095
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Session
       Id: g=5fff9b864950eb98d2104b776f425adb
       Type: Rectangle
@@ -3226,7 +3227,7 @@ Children:
               Id: g=db0cbce449403bbb181e1a66e77a46c1
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: ActualSession
         Id: g=3dcbeedf17a7c0b318dff2ceaa2881cc
         Type: Label
@@ -3309,7 +3310,7 @@ Children:
             Id: g=c4105c56140b825658195885c7b3e703
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=ee2c307ce2d5d78810500be830a2a7f2
             Type: BaseObjectType
@@ -3328,7 +3329,7 @@ Children:
                   Id: g=0900644c41e6055accd231c3f924d91f
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Id: g=dae9e3747cbd55a2b294e6f7bec5a7ed
                   Type: PropertyType
@@ -3451,7 +3452,7 @@ Children:
             Id: g=c31d358222ac05a327ef5fb91a8050d0
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=4c5ab11e46138208dd04f226806044af
             Type: BaseObjectType
@@ -3464,13 +3465,13 @@ Children:
                 Id: g=d6e9870f9de6cbf22dace4a41fc446dc
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"Id":64,"Namespace":19}
+                Value: "/Objects/Commands/AlarmCommands"
                 Children:
                 - Name: Kind
                   Id: g=58a1192a51cfd59b20d1b825484c3523
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Id: g=6a55b5cabfec2beebdce911a851d92b8
                   Type: PropertyType
@@ -3568,7 +3569,7 @@ Children:
             Id: g=0d356d0b9fddb1ace9c2274a50239788
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=c7737ca33be50c5bbfaed2888ef7fcc9
             Type: BaseObjectType
@@ -3587,7 +3588,7 @@ Children:
                   Id: g=5570cced66e5aa48078e71f77ff3c327
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Id: g=3227977bce49fcf3044c414012ac3b57
                   Type: PropertyType
@@ -3704,7 +3705,7 @@ Children:
             Id: g=2799a614e9734cf5b02eb36adefc845d
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=f71754ff84c8fdcdf2e32ad7f69ee881
             Type: BaseObjectType
@@ -3717,13 +3718,13 @@ Children:
                 Id: g=11d4a7c4534bfa88e0aa6ef75eb867f9
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"Id":64,"Namespace":19}
+                Value: "/Objects/Commands/AlarmCommands"
                 Children:
                 - Name: Kind
                   Id: g=aadac65ef1e71825c6eac6af9de49886
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Id: g=7d7df3c6ca3e4c99866c35a38610ec8e
                   Type: PropertyType
@@ -3799,7 +3800,7 @@ Children:
             Id: g=6a527405d2a7449541d81c6fd5d0314e
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
           - Name: Kind
             Id: g=8fd74b5e3994d7395132e6590632afe5
             Type: PropertyType
@@ -3809,7 +3810,7 @@ Children:
             Id: g=f39a3557eb913a396d42d8620bcfef37
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=19;i=45}@Pointer"
+            Value: "/Objects/RetainedAlarms/LocalizedAlarms@Pointer"
         - Name: Query
           Id: g=e0960024fd907b6cd219e3993c2acfc4
           Type: BaseDataVariableType
@@ -4388,7 +4389,7 @@ Children:
             Id: g=98a3c0984bd16567b9f3fce61eb1444e
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: Width
           Id: g=2d3cbcc5d9c958777492c3d41297fb5b
           Type: BaseVariableType
@@ -4411,7 +4412,7 @@ Children:
             Id: g=26a60fff68be610e0a9aebd4b36764cd
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: HorizontalAlignment
           Id: g=e1d591121ff76d316f1f1211e160d2bf
           Type: BaseVariableType
@@ -4514,13 +4515,13 @@ Children:
         Id: g=7483173eaeb7a38d62bb81f648a5c49f
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"e9e71df8f3ccff9012408fcfef09759c","Namespace":38}
+        Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Zone"
         Children:
         - Name: ItemKind
           Id: g=adb5076dedbccd532a9c57e856c274c1
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"aee5ad9c2ec66ae34b91d87b904e4fd9","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Zone/Zone1"
         - Name: Kind
           Id: g=fa9090e07d9c558559c74577359b7e96
           Type: PropertyType
@@ -4540,7 +4541,7 @@ Children:
           Id: g=10b5d6d3e28638df09e76e780d493f98
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"aee5ad9c2ec66ae34b91d87b904e4fd9","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Zone/Zone1"
       - Class: Reference
         Target: ns=7;i=480
         Direction: Forward
@@ -4560,7 +4561,7 @@ Children:
           Id: g=7087b43152ed0a65ca80228318b7bf61
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":2,"Id":"aee5ad9c2ec66ae34b91d87b904e4fd9","Namespace":38}
+          Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Zone/Zone1"
       - Name: TopMargin
         Id: g=557cbe86c90424e89a04abe9f7edde45
         Type: BaseVariableType
@@ -4656,7 +4657,7 @@ Children:
                 Id: g=e188c0a15d918c79a695441c80dff639
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
         - Name: FillColor
           Id: g=a88d485bfea484e1f23ab0db47e8bfce
           Type: BaseDataVariableType
@@ -4677,7 +4678,7 @@ Children:
                 Id: g=ce48184c529e1854c5e0e70007e9faf9
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: Height
         Id: g=cf19039f19991e8891a88831e5d8f95a
         Type: BaseVariableType
@@ -4716,7 +4717,7 @@ Children:
             Id: g=ddd4316a3a3f78dc55d7bb11f4fe4fd5
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=0c0bfb0d-f7cb-1446-ad36-8ee9bd142f32}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Alarm1"
             Children:
             - Name: Mode
               Id: g=4d8c2ce343a84ef5e3755ed53c226329
@@ -4756,7 +4757,7 @@ Children:
             Id: g=b35788c221ee863daa29697ef1ea3041
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=881e4316-91b3-b964-7f67-93ebd79fb3ca}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Alarm2"
             Children:
             - Name: Mode
               Id: g=9d7e4bce3008703fb736465744a9e09c
@@ -4846,7 +4847,7 @@ Children:
               Id: g=6cef3b1db810e472fbbeaaa80e32e2cb
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: FillColor
         Id: g=c1e5fa2747cc3fb0e095a090d992c72f
         Type: BaseDataVariableType
@@ -4867,7 +4868,7 @@ Children:
               Id: g=0a944988c0b58f79edc9707aff13ab70
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Zone2
       Id: g=932b4f91fb068de0c527861362fc6b37
       Type: QWindowWithTitleBar
@@ -4918,7 +4919,7 @@ Children:
                 Id: g=25d9158021cec3fa129c5267b1f7837c
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
         - Name: FillColor
           Id: g=778f2ea8d6023725bdf24785ef94c700
           Type: BaseDataVariableType
@@ -4939,7 +4940,7 @@ Children:
                 Id: g=02d4de9ecb6ecf11cd830687fb3c1ddc
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: Height
         Id: g=678603329f87544237707d7cec5ffd2c
         Type: BaseVariableType
@@ -4978,7 +4979,7 @@ Children:
             Id: g=5e3e7bbef052a48d5051962c04be36de
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=98331eb0-1214-c0bb-32f2-6a969e6457f9}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Alarm3"
             Children:
             - Name: Mode
               Id: g=0f98bda7c448f7a7888130f4e277ea47
@@ -5018,7 +5019,7 @@ Children:
             Id: g=48eab9ea2830ebb4dc33fd738018b2ae
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=b0b6b600-7a75-de60-511c-475d1f3eb9ff}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Alarm4"
             Children:
             - Name: Mode
               Id: g=ddf29db748f69d2fcebc8bdb7c959e46
@@ -5108,7 +5109,7 @@ Children:
               Id: g=ce37e397f764a156cfdad65275584f88
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: FillColor
         Id: g=5c32a8476108a039940dd5a5a6f08e9f
         Type: BaseDataVariableType
@@ -5129,7 +5130,7 @@ Children:
               Id: g=4c100afa737bc770a4cc9d7e1b5f5a09
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Zone3
       Id: g=f116d75c57f19503507d22634ad5613e
       Type: QWindowWithTitleBar
@@ -5180,7 +5181,7 @@ Children:
                 Id: g=9c92d064404dcb8779ed2bf68e36e125
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
         - Name: FillColor
           Id: g=ff916b747ce11d210e8977a42870b425
           Type: BaseDataVariableType
@@ -5201,7 +5202,7 @@ Children:
                 Id: g=8336f867760bd940821c1e82bbdcebf6
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: Height
         Id: g=7cba12a3b1f7ce951e5aa7b8a19e4341
         Type: BaseVariableType
@@ -5240,7 +5241,7 @@ Children:
             Id: g=fd49f7fb52e52250067e3eb446ca7660
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=1c5a4399-bf4d-0761-5e49-0121b25d07c4}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Alarm5"
             Children:
             - Name: Mode
               Id: g=d1369bcba417cdc10e70f92c47a998b1
@@ -5280,7 +5281,7 @@ Children:
             Id: g=467ebf5f2167ec5248d7e2c74bca61eb
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=d6076a38-1cd4-bf2d-6cc2-e82ccb8da6ce}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/Area/Alarm6"
             Children:
             - Name: Mode
               Id: g=859505459da68b3309f94ad3a13c1594
@@ -5370,7 +5371,7 @@ Children:
               Id: g=39f0c871946bf2b8484e474ded03eb1d
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: FillColor
         Id: g=a762faef12c2fb0569aabc59d9e175cc
         Type: BaseDataVariableType
@@ -5391,7 +5392,7 @@ Children:
               Id: g=67bddd25ae21b79ff7e7b83302a87656
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: BorderColor
       Id: g=a39e439cf8b89e01d97bf46dbf3baeca
       Type: BaseDataVariableType
@@ -5412,7 +5413,7 @@ Children:
             Id: g=2dfd0fb3316d58c0f8b9d7f0e2bdc20f
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=cba1c6a27456b79dfdcf4b912aa9452a
       Type: BaseDataVariableType
@@ -5433,7 +5434,7 @@ Children:
             Id: g=4716db42f5ac8fe5a774d03bb3b7ebef
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
 - Name: HistoryPage
   Id: g=c5fa408c3d3921ee2f0f3a3e5ea249df
   Supertype: QPage
@@ -5467,7 +5468,7 @@ Children:
               Id: g=cb963a2b86fa66ae04c2769c97ff769f
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
           - Name: Pairs
             Id: g=b7f550d0d9625dfa32d200e39619d90c
             Type: BaseObjectType
@@ -5483,7 +5484,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
               - Name: Value
                 Id: g=4f9ea8f384f5892f21ee6079b90fe922
                 Type: BaseDataVariableType
@@ -5500,7 +5501,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/MaterialDark"
               - Name: Value
                 Id: g=d4d9406b9dcb9ed90020d65a6b66f3c2
                 Type: BaseDataVariableType
@@ -5517,7 +5518,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
               - Name: Value
                 Id: g=f5b7fe9fce6ac748e5fe32bc62af9e18
                 Type: BaseDataVariableType
@@ -5534,7 +5535,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
               - Name: Value
                 Id: g=734a44a69ef8e95b93be09c767e443fb
                 Type: BaseDataVariableType
@@ -5551,7 +5552,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
               - Name: Value
                 Id: g=8e7a722e49f73da460fe43462cd73103
                 Type: BaseDataVariableType
@@ -5596,13 +5597,13 @@ Children:
         Id: g=a6124846c245007d1c295a72d92a927c
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"9571a945c4b09c48cd14f24910140580","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/PopupInfo/QInfoHistory"
         Children:
         - Name: Kind
           Id: g=e8ad38a3b1791b8f440a98ce173ca3e8
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ImagePath
         Id: g=b5882046f58997d7541217dd3ff2861f
         Type: BaseDataVariableType
@@ -5623,7 +5624,7 @@ Children:
               Id: g=08c2c60bb719698a961b1d6827eebd11
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=97463809771d274ae19bba7c5701503b
       Type: BaseDataVariableType
@@ -5644,7 +5645,7 @@ Children:
             Id: g=8a8c641456ac6a9efc6ff8e22aa2e375
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Session
       Id: g=f13cafa2f5751d14f3f4ae65c6c2b8e1
       Type: Rectangle
@@ -5669,7 +5670,7 @@ Children:
               Id: g=3ad25683c7ef49368fccaced898647a0
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: ActualSession
         Id: g=99747b5bff0e1d92ce54fb5a17b5fa26
         Type: Label
@@ -5719,7 +5720,7 @@ Children:
             Id: g=b72330b213f4313517e8ff3740d7edfb
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=f6b188767e024b7616f3483b1c63f1cc
       Type: BaseDataVariableType
@@ -5740,7 +5741,7 @@ Children:
             Id: g=0de17778081d8cbd286a73e438b11c5a
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FilteredAlarmHistoryGrid
       Id: g=b246c89a660b96f7098b32e816321b58
       Type: Panel
@@ -6733,7 +6734,7 @@ Children:
                 Id: g=18b2ad8d74d606e24537df86c53e8343
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":16,"Namespace":7}
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
                 Id: g=e9b307bb282ae12c7de1479e478c16b1
                 Type: BaseObjectType
@@ -6752,7 +6753,7 @@ Children:
                       Id: g=2be8d2d35871448d117cdff358a10f76
                       Type: PropertyType
                       DataType: NodeId
-                      Value: {"Id":58}
+                      Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: CollegamentoDinamico
                       Id: g=b37623efac8762827b332b422fa0a971
                       Type: DynamicLink
@@ -6860,13 +6861,13 @@ Children:
         Id: g=82377270f9dfd92dbdc1a0c65b37db8e
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":2,"Id":"d223ccc9cf8a6e138c0c28e7ede9f7a6","Namespace":38}
+        Value: "/Objects/FeaturesDemo/Loggers/AlarmsEventLogger"
         Children:
         - Name: Kind
           Id: g=404b2cf3b4ff2aa47c4e379009e695a3
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":1,"Namespace":13}
+          Value: "/Types/ObjectTypes/BaseObjectType/EventLogger"
       - Name: From
         Id: g=328ea1b469332565dd6fbc29b8b23644
         Type: BaseDataVariableType
@@ -6949,7 +6950,7 @@ Children:
               Id: g=ddd3b00db5fc483abad5206f54490803
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
           - Name: Pairs
             Id: g=0a09796dcc361b7c76fb60cebd46ea4e
             Type: BaseObjectType
@@ -6965,7 +6966,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/DefaultStyleSheet"
               - Name: Value
                 Id: g=5c662fc1e6d41d5ba6542ffab8f7a1ae
                 Type: BaseDataVariableType
@@ -6982,7 +6983,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/MaterialDark"
               - Name: Value
                 Id: g=02c260effa056f13f8f504c1062a6039
                 Type: BaseDataVariableType
@@ -6999,7 +7000,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyLight"
               - Name: Value
                 Id: g=6ba87b05c59971651f9f05662314761f
                 Type: BaseDataVariableType
@@ -7016,7 +7017,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/FriendlyDark"
               - Name: Value
                 Id: g=65cee9204d9c6ea0d4729c9dcba7aa1e
                 Type: BaseDataVariableType
@@ -7033,7 +7034,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ModellingRule: None
-                Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":38}
+                Value: "/Objects/FeaturesDemo/UI/CustomStyleSheet"
               - Name: Value
                 Id: g=a4bd531d4dc5ebde74e21a8f16b1cf73
                 Type: BaseDataVariableType
@@ -7078,13 +7079,13 @@ Children:
         Id: g=aa0c9311f54880589ac511ae04916397
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"7966fcaddfd1e3a453c8637432d3f0ed","Namespace":38}
+        Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/PopupInfo/QInfoMailEvent"
         Children:
         - Name: Kind
           Id: g=aeda09fd4a277021984d3dc8a82235c3
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ImagePath
         Id: g=770438ad349c4555f497ac4a28d9d5a0
         Type: BaseDataVariableType
@@ -7105,7 +7106,7 @@ Children:
               Id: g=d32e983362eb9adf88ba39575cf47f0f
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=3ed407733d88e9bbcdebd6e3142e5ab6
       Type: BaseDataVariableType
@@ -7126,7 +7127,7 @@ Children:
             Id: g=9f454f28db3246ad78ff5af686ace328
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: Session
       Id: g=4d404fb9cd6e7409a21f511c9fc93781
       Type: Rectangle
@@ -7151,7 +7152,7 @@ Children:
               Id: g=c328fc15dde41f4fd31310b3f1b5cff6
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: ActualSession
         Id: g=60a9822656ce6a1048efde371efec145
         Type: Label
@@ -7255,7 +7256,7 @@ Children:
                 Id: g=ed42164f12ef12bd3acb94815da81386
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
         - Name: FillColor
           Id: g=edebea2cc55b708560d2263f710afa51
           Type: BaseDataVariableType
@@ -7276,7 +7277,7 @@ Children:
                 Id: g=ab90ee089f0395d4fb8c9ca8f7f0fc1b
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+                Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: LeftMargin
         Id: g=0e63afbe6d4bd0c423aed46c08dbc7c8
         Type: BaseVariableType
@@ -7327,7 +7328,7 @@ Children:
             Id: g=402c88efc87fd2efe731122696357e23
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=b667031d-d981-beab-7ac4-9233c3c1e3e2}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/DigitalMail"
             Children:
             - Name: Mode
               Id: g=cb84193845db5c23cc04ae28e71211f1
@@ -7379,7 +7380,7 @@ Children:
             Id: g=2da76ad57af9a790d5f2482df56f2a3b
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=3573d8d8-63b9-e229-44d2-7614808153e8}"
+            Value: "/Objects/FeaturesDemo/Model/Alarms/AnalogMail"
             Children:
             - Name: Mode
               Id: g=1d2a36ed143e5aeadab27163342c3829
@@ -7606,7 +7607,7 @@ Children:
             Id: g=1a9005ec078739ca5cf2c43cb9df3b17
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=634852af-f3bd-9267-46c8-cc933bb1f8f8}"
+            Value: "/Objects/FeaturesDemo/Users/UserMail/Email"
             Children:
             - Name: Mode
               Id: g=48e4b626c45ef02b75c7b5d5d80fa1e8
@@ -7664,7 +7665,7 @@ Children:
             Id: g=11bd7f1752a450711b296b4e31b02917
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=ead7e0e8-20ac-8e10-0e8b-deca730a41dc}"
+            Value: "/Objects/FeaturesDemo/Alarms/DigitalAlarmWithEmailNotification/Message"
             Children:
             - Name: Mode
               Id: g=888aab19e65bb731d398623d93b652e0
@@ -7734,7 +7735,7 @@ Children:
             Id: g=f177d47e57ba1b3ec8c4a3b4e3433bd0
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=d8e04ea0-05d1-6f38-5188-ed2d62b01a7f}"
+            Value: "/Objects/FeaturesDemo/Alarms/ExclusiveLevelAlarmWithEmailNotification/Message"
             Children:
             - Name: Mode
               Id: g=ceb20d76c70927345164d91219994a0e
@@ -7888,13 +7889,13 @@ Children:
           Id: g=6a0236a498c229e9510e1fe4a048b67c
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"135afedd3c899acb0fe7c5a31b478352","Namespace":38}
+          Value: "/Objects/FeaturesDemo/UI/Sections/Alarms/MailParameters"
           Children:
           - Name: Kind
             Id: g=5a482fee8abe2d6c855f4b5783016cff
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":7}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: Text
           Id: g=2713140a16dcca6023b45269bc50096e
           Type: BaseDataVariableType
@@ -7957,7 +7958,7 @@ Children:
               Id: g=791203744067b17aba669b46cca48283
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
       - Name: FillColor
         Id: g=21fed1c58e8c24fb5300ff0b82ea9a1b
         Type: BaseDataVariableType
@@ -7978,7 +7979,7 @@ Children:
               Id: g=968c236a3f1a5f6a5f571114f97c49b8
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+              Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: BorderColor
       Id: g=e7bb5aff47af7d8ed0a7efd663db1eea
       Type: BaseDataVariableType
@@ -7999,7 +8000,7 @@ Children:
             Id: g=c7f853c8d18abbe2f346da90100e8937
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=f31834a78116cdff4ab5a98c696220fd
       Type: BaseDataVariableType
@@ -8020,7 +8021,7 @@ Children:
             Id: g=e3bd345b96be1a7732f35871af8bb2eb
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
 - Name: PopupPDF
   Id: g=9d547aef4f3e1801b53e5fc72259000b
   Supertype: Popup
@@ -8051,7 +8052,7 @@ Children:
       Id: g=5d37266ce97be651e3c5eb5bb90ef7bd
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":2915}
+      Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
   - Name: HorizontalAlignment
     Id: g=fbfa2090d19b70c8dcabee7b6c07d5ee
     Type: BaseVariableType
@@ -8130,7 +8131,7 @@ Children:
             Id: g=25beb14fcd1d90844705a3ddbb66ef3a
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=0f77517cfe7be93d5eef8cadacc3841e
       Type: BaseDataVariableType
@@ -8151,7 +8152,7 @@ Children:
             Id: g=94e884804c30fcf591a90c26207f9b53
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: PDFViewer
       Id: g=14b008ecda0d859a7193b5a12c3ef364
       Type: PdfViewer
@@ -8285,7 +8286,7 @@ Children:
           Id: g=c3ac63fe1fe34be5ef780b2b0eed85b9
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":7}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Id: g=97c53c79f0927f1937543c354a78053f
           Type: BaseObjectType
@@ -8304,7 +8305,7 @@ Children:
                 Id: g=336d44f77ae72daaa5984ba6bc3c9b53
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Id: g=b5de91b965f08103268eeb0aecc165dd
                 Type: DynamicLink
@@ -8476,7 +8477,7 @@ Children:
             Id: g=16df717ff6729c914294e61d0a1acf63
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: FillColor
       Id: g=92cf4ed292d1ef587ab5aba96dc4c532
       Type: BaseDataVariableType
@@ -8497,7 +8498,7 @@ Children:
             Id: g=7f86e7aabbb4dcae5b01dd15b9e743f7
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=38;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+            Value: "/Objects/FeaturesDemo/UI/NativePresentationEngine/StyleSheet@Pointer"
     - Name: HorizontalAlignment
       Id: g=98072902b4d679e999583a941c90e089
       Type: BaseVariableType
@@ -8634,7 +8635,7 @@ Children:
           Id: g=a5fec7cae51aa2bc5667303e6c889b1a
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=5acf2b56-c646-a984-a88d-50c055a52d87}"
+          Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic/SenderEmailAddress"
           Children:
           - Name: Mode
             Id: g=83addf962bbcd570e0423ee86afeba30
@@ -8686,7 +8687,7 @@ Children:
           Id: g=7a4fb8b2e7366f9c8b1ff4decd874904
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=94e4ea5c-0b45-93df-314e-7ffcb691a6a9}"
+          Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic/SenderEmailPassword"
           Children:
           - Name: Mode
             Id: g=c46b1f8ba3bb8b02bcf9d4da26af69fe
@@ -8738,7 +8739,7 @@ Children:
           Id: g=ada9b8c4c03c7a3eabea1491ed683382
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=5dc9d357-bc9b-51b8-5e0e-93c75e305e06}"
+          Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic/SMTPHostname"
           Children:
           - Name: Mode
             Id: g=23f008f20376026677fe1e485f2cb435
@@ -8790,7 +8791,7 @@ Children:
           Id: g=de084ffc0216c7295812e3c7e409bf6f
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=fad00f71-8243-5b84-b8c3-99c779e57a9c}"
+          Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic/SMTPPort"
           Children:
           - Name: Mode
             Id: g=c2a9a51b413e193c66b7fd17a2f90951
@@ -8842,7 +8843,7 @@ Children:
           Id: g=f64d323df752badb1531742d4fd8d9f5
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=38;g=99508a28-f1b9-0d05-0208-25e00f90f2b1}"
+          Value: "/Objects/FeaturesDemo/NetLogic/EmailSenderLogic/EnableSSL"
           Children:
           - Name: Mode
             Id: g=b8746f80264ee4ad9cd83becda3804ca
@@ -8928,7 +8929,7 @@ Children:
           Id: g=4b42073e3d111d792397a973ab7f129f
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":7}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Id: g=394feec53e80266ba51aaef3dc8f4e27
           Type: BaseObjectType
@@ -8947,7 +8948,7 @@ Children:
                 Id: g=5d2ef109f9c0276ca82bad8ff90ea7dc
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Id: g=fa5bba80357b9a46358d44626f860e35
                 Type: DynamicLink
