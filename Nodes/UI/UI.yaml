@@ -2653,7 +2653,7 @@ Children:
           Type: BaseDataVariableType
           DataType: FontWeightEnum
           ModellingRule: Optional
-          Value: 600
+          Value: 700
         - Name: RightMargin
           Id: g=2285c953ad92e3a88875ac7ae0dc8fef
           Type: BaseVariableType
@@ -2682,18 +2682,24 @@ Children:
           Id: g=9fac12e8e842535711e2797c1b9a5816
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Id: g=b6c7f1144f80e2a7919a3708fb2f9f66
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{MiddlePanel}/Panel@DisplayName"
+          Value: {"LocaleId":"en-US","Text":"THIS DEMO WAS DEPRECATED, USE THE FEATURESDEMO2 INSTEAD"}
         - Name: Visible
           Id: g=2fccf92a65b8c96d894989c31feeabfb
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
+        - Name: FontFamily
+          Id: g=e0b5c4e53125f72686647d8a8de142ba
+          Type: BaseDataVariableType
+          DataType: Font
+          ModellingRule: Optional
+          Value: ""
+        - Name: TextColor
+          Id: g=a872c23584f1de0b6aa3b9274638d3fa
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ff0000"
       - Name: BackgroundLine
         Id: g=b8b7a20c4d9ae180c71a6fcadfb4eb91
         Type: Rectangle
